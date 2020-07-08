@@ -45,7 +45,7 @@ cfg_write <- function(provided = c(1:2),
   table <- tibble::tibble(provided = provided, standard = standard)
   table
   
-  saveRDS(table, file = path)
+  write.csv(table, file = path, row.names = FALSE)
   
 }
 
