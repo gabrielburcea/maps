@@ -56,3 +56,23 @@ ccg_name_levels <- NHS_Pathways_Covid_19_data_CCG_mapped %>%
   tibble::add_column(standard = NA) 
 write.csv(ccg_name_levels, file = "/Users/gabrielburcea/Rprojects/maps/nhs_pathways_covid_19_data_ccg_mapped/ccg_name_levels.csv")
 
+
+##############################################
+#### UK gov - coronavirus-cases_latest  ###############
+
+column_mapping <- cfg_write(provided = c("Area name", "Area code", "Area type", "Specimen date", "Daily lab-confirmed cases", "Previously reported daily cases", "Change in daily cases", "Cumulative lab-confirmed cases", "Previously reported cumulative cases", "Change in cumulative cases", "Cumulative lab-confirmed cases rate"),
+                            standard = c("location", "area_code", "area_type", "date", "daily_labconfirmed_cases", "previously_reported_daily_cases", "change_in_daily_cases", "cumulative_labconfirmed_cases", "previously_reported_cumulative_cases", "change_in_cumulative_cases", "cumulative_labconfirmed_cases"),
+                            table = column_mapping,
+                            path = "/Users/sakelly/maps/uk_gov_corona_virus_latest/column_mapping.csv")
+
+area_names <- coronavirus_cases_latest %>%
+  dplyr::distinct(location) %>%
+  rename(provided = location) %>% 
+  tibble::add_column(standard = NA)
+write.csv(area_names, file = "Users/sakelly/maps/uk_gov_corona_virus_latest/area_names.csv",  row.names = FALSE)                       
+
+area_types <- coronavirus_cases_latest %>%
+  dplyr::distinct(area_type) %>%
+  rename(provided = area_type) %>% 
+  tibble::add_column(standard = NA)
+write.csv(area_types, file = "Users/sakelly/maps/uk_gov_corona_virus_latest/area_types.csv",  row.names = FALSE)
