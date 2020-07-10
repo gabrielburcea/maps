@@ -60,19 +60,20 @@ write.csv(ccg_name_levels, file = "/Users/gabrielburcea/Rprojects/maps/nhs_pathw
 ##############################################
 #### UK gov - coronavirus-cases_latest  ###############
 
-column_mapping <- cfg_write(provided = c("Area name", "Area code", "Area type", "Specimen date", "Daily lab-confirmed cases", "Previously reported daily cases", "Change in daily cases", "Cumulative lab-confirmed cases", "Previously reported cumulative cases", "Change in cumulative cases", "Cumulative lab-confirmed cases rate"),
+column_mapping <- cfg_write(provided = c("Area.name", "Area.code", "Area.type", "Specimen.date", "Daily.lab.confirmed.cases", "Previously.reported.daily.cases", "Change.in.daily.cases", "Cumulative.lab.confirmed.cases", "Previously.reported.cumulative.cases", "Change.in.cumulative.cases", "Cumulative.lab.confirmed.cases.rate"),
                             standard = c("location", "area_code", "area_type", "date", "daily_labconfirmed_cases", "previously_reported_daily_cases", "change_in_daily_cases", "cumulative_labconfirmed_cases", "previously_reported_cumulative_cases", "change_in_cumulative_cases", "cumulative_labconfirmed_cases"),
                             table = column_mapping,
                             path = "/Users/sakelly/maps/uk_gov_corona_virus_latest/column_mapping.csv")
 
-area_names <- coronavirus_cases_latest %>%
-  dplyr::distinct(location) %>%
-  rename(provided = location) %>% 
-  tibble::add_column(standard = NA)
-write.csv(area_names, file = "Users/sakelly/maps/uk_gov_corona_virus_latest/area_names.csv",  row.names = FALSE)                       
+area_name_level <- coronavirus_cases_latest %>%
+  dplyr::distinct(Area.name) %>%
+  rename(provided = Area.name) %>% 
+  tibble::add_column(standard = NA) %>% 
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(area_name_level, file = "/Users/sakelly/maps/uk_gov_corona_virus_latest/area_name_level.csv",  row.names = FALSE)                       
 
-area_types <- coronavirus_cases_latest %>%
-  dplyr::distinct(area_type) %>%
-  rename(provided = area_type) %>% 
+area_type_level <- coronavirus_cases_latest %>%
+  dplyr::distinct(Area.type) %>%
+  rename(provided = Area.type) %>% 
   tibble::add_column(standard = NA)
-write.csv(area_types, file = "Users/sakelly/maps/uk_gov_corona_virus_latest/area_types.csv",  row.names = FALSE)
+write.csv(area_type_level, file = "/Users/sakelly/maps/uk_gov_corona_virus_latest/area_type_level.csv",  row.names = FALSE)
