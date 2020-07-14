@@ -7,7 +7,13 @@ the repository contains folders per datasets. Each folder's name is a copy of th
 ### Variable Gender 
 provided variable for Sex ->  gender 
 provided categories for gender if M -> male 
-                                  F -> female
+                                  F -> female                                 
+### Variable number tested
+provided variable for number tested -> sample_count
+
+### Variable GPS location
+provided variable latitude -> GPS_latitude
+provided vartiable longitude -> GPS_longitude
     
 ## Columns to be added to datasets
 ### Data Types
@@ -16,5 +22,6 @@ Individual data -> individual
 
 ### UK data 
 Add a column that provides the name of the country the data was collected from
+Column to be named -> location_country
 
 
