@@ -7,6 +7,14 @@ the repository contains folders per datasets. Each folder's name is a copy of th
 ### Variable Gender 
 provided variable for Sex ->  gender 
 provided categories for gender if M -> male 
+                                  F -> female
+    
+## Columns to be added to datasets
+### Data Types
+Aggregate data -> pool
+Individual data -> individual
 
+### UK data 
+Add a column that provides the name of the country the data was collected from
 
 
