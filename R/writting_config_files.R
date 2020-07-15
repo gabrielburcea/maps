@@ -84,3 +84,10 @@ column_mapping <- cfg_write(provided = c("death_id", "province_death_id", "case_
                             standard = c("death_id", "province_death_id", "case_id", "age", "sex", "health_region", "province", "country", "date", "death_source", "additional_info", "additional_source"), 
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/canada_individual_level_mortality/column_mapping.csv") 
+
+age_levels <- individual_level_mortality %>%
+  dplyr::distinct(age) %>%
+  rename(provided = age) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(age_levels, file = "/Users/sakelly/maps/canada_individual_level_mortality/age_levels.csv",  row.names = FALSE)
