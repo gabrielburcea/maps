@@ -174,3 +174,49 @@ locally_acquired_level <- public_covid_19_cases_canada %>%
   mutate(standard = ifelse(is.na(standard), provided, standard))
 write.csv(locally_acquired_level, file = "/Users/sakelly/maps/canada_public_covid_19_cases/locally_acquired_level.csv",  row.names = FALSE)
 
+###canada_testing_data - Canada###
+
+column_mapping <- cfg_write(provided = c("id", "date", "age", "case_id", "country", "province", "region", "sex", "travel", "travelh"), 
+                            standard = c("id", "date", "age", "case_id", "country", "province", "region", "sex", "travel", "travelh"),
+                            table = column_mapping, 
+                            path = "/Users/sakelly/maps/canada_testing_data/column_mapping.csv") 
+
+age_levels <- canada_testing_data %>%
+  dplyr::distinct(age) %>%
+  rename(provided = age) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(age_levels, file = "/Users/sakelly/maps/canada_testing_data/age_levels.csv",  row.names = FALSE)
+
+country_level <- canada_testing_data %>%
+  dplyr::distinct(country) %>%
+  rename(provided = country) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(country_level, file = "/Users/sakelly/maps/canada_testing_data/country_level.csv",  row.names = FALSE)
+
+province_level <- canada_testing_data %>%
+  dplyr::distinct(province) %>%
+  rename(provided = province) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(province_level, file = "/Users/sakelly/maps/canada_testing_data/province_level.csv",  row.names = FALSE)
+
+region_level <- canada_testing_data %>%
+  dplyr::distinct(region) %>%
+  rename(provided = region) %>%
+  tibble::add_column(standard = NA)
+write.csv(region_level, file = "/Users/sakelly/maps/canada_testing_data/region_level.csv",  row.names = FALSE)
+
+travel_level <- canada_testing_data %>%
+  dplyr::distinct(travel) %>%
+  rename(provided = travel) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(travel_level, file = "/Users/sakelly/maps/canada_testing_data/travel_level.csv",  row.names = FALSE)
+
+travelh_level <- canada_testing_data %>%
+  dplyr::distinct(travelh) %>%
+  rename(provided = travelh) %>%
+  tibble::add_column(standard = NA)
+write.csv(travelh_level, file = "/Users/sakelly/maps/canada_testing_data/travelh_level.csv",  row.names = FALSE)
