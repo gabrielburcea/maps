@@ -102,8 +102,7 @@ write.csv(sex_levels, file = "/Users/sakelly/maps/canada_individual_level_mortal
 health_region_level <- individual_level_mortality %>%
   dplyr::distinct(health_region) %>%
   rename(provided = health_region) %>%
-  tibble::add_column(standard = NA) %>%
-  mutate(standard = ifelse(is.na(standard), provided, standard))
+  tibble::add_column(standard = NA)
 write.csv(health_region_level, file = "/Users/sakelly/maps/canada_individual_level_mortality/health_region_level.csv",  row.names = FALSE)
 
 province_level <- individual_level_mortality %>%
@@ -119,3 +118,59 @@ country_level <- individual_level_mortality %>%
   tibble::add_column(standard = NA) %>%
   mutate(standard = ifelse(is.na(standard), provided, standard))
 write.csv(country_level, file = "/Users/sakelly/maps/canada_individual_level_mortality/country_level.csv",  row.names = FALSE)
+
+###public-covid-19-cases-canada - Canada###
+
+column_mapping <- cfg_write(provided = c("case_id", "provincal_case_id", "age", "sex", "health_region", "province", "country", "date_report", "report_week", "has_travel_history", "locally_acquired", "case_source"), 
+                            standard = c("case_id", "provincal_case_id", "age", "sex", "health_region", "province", "country", "date", "report_week", "has_travel_history", "locally_acquired", "case_source"), 
+                            table = column_mapping, 
+                            path = "/Users/sakelly/maps/canada_public_covid_19_cases/column_mapping.csv") 
+
+age_levels <- public_covid_19_cases_canada %>%
+  dplyr::distinct(age) %>%
+  rename(provided = age) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(age_levels, file = "/Users/sakelly/maps/canada_public_covid_19_cases/age_levels.csv",  row.names = FALSE)
+
+sex_levels <- public_covid_19_cases_canada %>%
+  dplyr::distinct(sex) %>%
+  rename(provided = sex) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(sex_levels, file = "/Users/sakelly/maps/canada_public_covid_19_cases/sex_levels.csv", row.names = FALSE)
+
+health_region_level <- public_covid_19_cases_canada %>%
+  dplyr::distinct(health_region) %>%
+  rename(provided = health_region) %>%
+  tibble::add_column(standard = NA)
+write.csv(health_region_level, file = "/Users/sakelly/maps/canada_public_covid_19_cases/health_region_level.csv",  row.names = FALSE)
+
+province_level <- public_covid_19_cases_canada %>%
+  dplyr::distinct(province) %>%
+  rename(provided = province) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(province_level, file = "/Users/sakelly/maps/canada_public_covid_19_cases/province_level.csv",  row.names = FALSE)
+
+country_level <- public_covid_19_cases_canada %>%
+  dplyr::distinct(country) %>%
+  rename(provided = country) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(country_level, file = "/Users/sakelly/maps/canada_public_covid_19_cases/country_level.csv",  row.names = FALSE)
+
+travel_history_level <- public_covid_19_cases_canada %>%
+  dplyr::distinct(has_travel_history) %>%
+  rename(provided = has_travel_history) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(travel_history_level, file = "/Users/sakelly/maps/canada_public_covid_19_cases/travel_history_level.csv",  row.names = FALSE)
+
+locally_acquired_level <- public_covid_19_cases_canada %>%
+  dplyr::distinct(locally_acquired) %>%
+  rename(provided = locally_acquired) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(locally_acquired_level, file = "/Users/sakelly/maps/canada_public_covid_19_cases/locally_acquired_level.csv",  row.names = FALSE)
+
