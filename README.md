@@ -12,7 +12,9 @@ provided categories for gender if M -> male
 ### Variable Date    
 provided variable Date -> date
 
-### Variable agegrou
+### Variable age group
+provided AGEGROUP -> agegroup
+
 ### Variable sample_count
 provided variable for number tested -> sample_count
 
