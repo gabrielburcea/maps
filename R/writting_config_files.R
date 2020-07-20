@@ -283,3 +283,30 @@ denominazione_regione_levels <- covid_19_italy_situation_monitoring_by_region %>
   mutate(standard = ifelse(is.na(standard), provided, standard))
 write.csv(stato_levels, file = "/Users/sakelly/maps/italy/denominazione_regione_levels.csv", row.names = FALSE)
 
+### belgium_cases_mort - BELGIUM ###
+
+column_mapping <- cfg_write(provided = c("DATE", "REGION", "AGEGROUP", "SEX", "DEATHS"), 
+                            standard = c("date", "region", "agegroup", "sex", "deaths"),
+                            table = column_mapping, 
+                            path = "/Users/sakelly/maps/belgium_cases_mort/column_mapping.csv")
+
+region_level <- COVID19BE_MORT %>%
+  dplyr::distinct(REGION) %>%
+  rename(provided = REGION) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(region_level, file = "/Users/sakelly/maps/belgium_cases_mort/region_level.csv",  row.names = FALSE)
+
+age_group_levels <- COVID19BE_MORT %>%
+  dplyr::distinct(AGEGROUP) %>%
+  rename(provided = AGEGROUP) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(age_group_levels, file = "/Users/sakelly/maps/belgium_cases_mort/age_group_level.csv",  row.names = FALSE)
+
+sex_levels <- COVID19BE_MORT %>%
+  dplyr::distinct(SEX) %>%
+  rename(provided = SEX) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = c("male", "female", "unknown"))
+write.csv(sex_levels, file = "/Users/sakelly/maps/belgium_cases_mort/sex_levels.csv", row.names = FALSE)
