@@ -7,7 +7,8 @@ the repository contains folders per datasets. Each folder's name is a copy of th
 ### Variable gender 
 provided variable for Sex ->  gender 
 provided categories for gender if M -> male 
-                                  F -> female     
+                                  F -> female  
+                                  NA -> unknown
 ### Variable Date    
 provided variable Date -> date
 
