@@ -310,3 +310,60 @@ sex_levels <- COVID19BE_MORT %>%
   tibble::add_column(standard = NA) %>%
   mutate(standard = c("male", "female", "unknown"))
 write.csv(sex_levels, file = "/Users/sakelly/maps/belgium_cases_mort/sex_levels.csv", row.names = FALSE)
+
+
+### belgium_covid19_age_sex - BELGIUM ###
+
+column_mapping <- cfg_write(provided = c("DATE", "PROVINCE", "REGION", "AGEGROUP", "SEX", "CASES"), 
+                            standard = c("date", "province", "region", "agegroup", "sex", "deaths"),
+                            table = column_mapping, 
+                            path = "/Users/sakelly/maps/belgium_covid19_age_sex/column_mapping.csv")
+
+province_level <- COVID19BE_CASES_AGESEX %>%
+  dplyr::distinct(PROVINCE) %>%
+  rename(provided = PROVINCE) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(province_level, file = "/Users/sakelly/maps/belgium_covid19_age_sex/province_level.csv",  row.names = FALSE)
+
+region_level <- COVID19BE_CASES_AGESEX %>%
+  dplyr::distinct(REGION) %>%
+  rename(provided = REGION) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(region_level, file = "/Users/sakelly/maps/belgium_covid19_age_sex/region_level.csv",  row.names = FALSE)
+
+age_group_levels <- COVID19BE_CASES_AGESEX %>%
+  dplyr::distinct(AGEGROUP) %>%
+  rename(provided = AGEGROUP) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(age_group_levels, file = "/Users/sakelly/maps/belgium_covid19_age_sex/age_group_level.csv",  row.names = FALSE)
+
+sex_levels <- COVID19BE_CASES_AGESEX %>%
+  dplyr::distinct(SEX) %>%
+  rename(provided = SEX) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = c("male", "female", "unknown"))
+write.csv(sex_levels, file = "/Users/sakelly/maps/belgium_covid19_age_sex/sex_levels.csv", row.names = FALSE)
+
+### belgium_covid19_cases_hosp - BELGIUM ###
+
+column_mapping <- cfg_write(provided = c("DATE", "PROVINCE", "REGION", "NR_REPORTING", "TOTAL_IN", "TOTAL_IN_ICU", "TOTAL_IN_RESP", "TOTAL_IN_ECMO", "NEW_IN", "NEW_OUT"), 
+                            standard = c("date", "province", "region", "nr_reporting", "total_in", "total_in_icu", "total_in_resp", "total_in_ecmo", "new_in", "new_out"),
+                            table = column_mapping, 
+                            path = "/Users/sakelly/maps/belgium_covid19_cases_hosp/column_mapping.csv")
+
+province_level <- COVID19BE_HOSP %>%
+  dplyr::distinct(PROVINCE) %>%
+  rename(provided = PROVINCE) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(province_level, file = "/Users/sakelly/maps/belgium_covid19_cases_hosp/province_level.csv",  row.names = FALSE)
+
+region_level <- COVID19BE_HOSP %>%
+  dplyr::distinct(REGION) %>%
+  rename(provided = REGION) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(region_level, file = "/Users/sakelly/maps/belgium_covid19_cases_hosp/region_level.csv",  row.names = FALSE)
