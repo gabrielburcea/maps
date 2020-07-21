@@ -78,6 +78,35 @@ area_type_level <- coronavirus_cases_latest %>%
   tibble::add_column(standard = NA)
 write.csv(area_type_level, file = "/Users/sakelly/maps/uk_gov_corona_virus_latest/area_type_level.csv",  row.names = FALSE)
 
+
+#### UK gov - coron_virus_deaths_latest  ###############
+
+column_mapping <- cfg_write(provided = c("Area.name", "Area.code", "Area.type", "Reporting.date", "Daily.change.in.deaths", "Cumulative.deaths"),
+                            standard = c("area_name", "area_code", "area_type", "reporting_date", "daily_change_in_deaths", "cumulative_deaths"),
+                            table = column_mapping,
+                            path = "/Users/sakelly/maps/uk_gov_corona_virus_deaths_latest/column_mapping.csv")
+
+area_name_level <- coronavirus_deaths_latest %>%
+  dplyr::distinct(Area.name) %>%
+  rename(provided = Area.name) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(area_name_level, file = "/Users/sakelly/maps/uk_gov_corona_virus_deaths_latest/area_name_level.csv",  row.names = FALSE)
+
+area_code_level <- coronavirus_deaths_latest %>%
+  dplyr::distinct(Area.code) %>%
+  rename(provided = Area.code) %>%
+  tibble::add_column(standard = NA)
+write.csv(area_code_level, file = "/Users/sakelly/maps/uk_gov_corona_virus_deaths_latest/area_code_level.csv",  row.names = FALSE)
+
+area_type_level <- coronavirus_deaths_latest %>%
+  dplyr::distinct(Area.type) %>%
+  rename(provided = Area.type) %>%
+  tibble::add_column(standard = NA)
+write.csv(area_type_level, file = "/Users/sakelly/maps/uk_gov_corona_virus_deaths_latest/area_type_level.csv",  row.names = FALSE)
+
+
+
 ###canada-individual-level-mortality - Canada###
 
 column_mapping <- cfg_write(provided = c("death_id", "province_death_id", "case_id", "age", "sex", "health_region", "province", "country", "date_death_report", "death_source", "additional_info", "additional_source"), 
