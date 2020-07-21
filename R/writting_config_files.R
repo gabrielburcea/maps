@@ -534,3 +534,30 @@ fips_level <- covid_statistics_by_us_states_daily_updates %>%
   rename(provided = fips) %>%
   tibble::add_column(standard = NA)
 write.csv(fips_level, file = "/Users/sakelly/maps/us_covid_statistics_states/fips_level.csv",  row.names = FALSE)
+
+### us_counties_statistics_states ###
+
+column_mapping <- cfg_write(provided = c("date", "county", "state", "fips", "cases", "deaths"), 
+                            standard = c("date", "county", "state", "fips", "cases", "deaths"),
+                            table = column_mapping, 
+                            path = "/Users/sakelly/maps/us_counties_statistics_states/column_mapping.csv")
+
+county_level <- us_counties %>%
+  dplyr::distinct(county) %>%
+  rename(provided = county) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(county_level, file = "/Users/sakelly/maps/us_counties_statistics_states/county_level.csv",  row.names = FALSE)
+
+state_level <- us_counties %>%
+  dplyr::distinct(state) %>%
+  rename(provided = state) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(state_level, file = "/Users/sakelly/maps/us_counties_statistics_states/state_level.csv",  row.names = FALSE)
+
+fips_level <- us_counties %>%
+  dplyr::distinct(fips) %>%
+  rename(provided = fips) %>%
+  tibble::add_column(standard = NA)
+write.csv(fips_level, file = "/Users/sakelly/maps/us_counties_statistics_states/fips_level.csv",  row.names = FALSE)
