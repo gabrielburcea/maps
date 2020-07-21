@@ -21,6 +21,15 @@ provided variable for number tested -> sample_count
 ### Variable GPS location
 provided variable latitude -> GPS_latitude
 provided vartiable longitude -> GPS_longitude
+
+### Variable State
+provided State -> state
+
+### Variable County
+provided County -> county
+
+### Variable Deaths
+provided Deaths -> deaths
     
 ## Columns to be added to datasets
 ### Data Types
