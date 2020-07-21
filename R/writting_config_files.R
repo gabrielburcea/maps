@@ -478,3 +478,59 @@ tx_rgn_descr_fr_level <- COVID19BE_CASES_MUNI_CUM %>%
   rename(provided = TX_RGN_DESCR_FR) %>%
   tibble::add_column(standard = NA)
 write.csv(tx_rgn_descr_fr_level, file = "/Users/sakelly/maps/belgium_covid19_cases_muni_cum/tx_rgn_descr_fr_level.csv",  row.names = FALSE)
+
+### ecdc data ###
+
+column_mapping <- cfg_write(provided = c("dateRep", "day", "month", "year", "cases", "deaths", "countriesAndTerritories", "geoId", "countryterritoryCode", "popData2018", "continentExp"), 
+                            standard = c("date", "day", "month", "year", "cases", "deaths", "countriesAndTerritories", "geoId", "countryterritoryCode", "popData2018", "continentExp"),
+                            table = column_mapping, 
+                            path = "/Users/sakelly/maps/ecdc_data/column_mapping.csv")
+
+countriesAndTerritories_level <- COVID19_geographic_distribution_worldwide %>%
+  dplyr::distinct(countriesAndTerritories) %>%
+  rename(provided = countriesAndTerritories) %>%
+  tibble::add_column(standard = NA)
+write.csv(countriesAndTerritories_level, file = "/Users/sakelly/maps/ecdc_data/countriesAndTerritories_level.csv",  row.names = FALSE)
+
+geoId_level <- COVID19_geographic_distribution_worldwide %>%
+  dplyr::distinct(geoId) %>%
+  rename(provided = geoId) %>%
+  tibble::add_column(standard = NA)
+write.csv(geoId_level, file = "/Users/sakelly/maps/ecdc_data/geoId_level.csv",  row.names = FALSE)
+
+countryterritoryCode_level <- COVID19_geographic_distribution_worldwide %>%
+  dplyr::distinct(countryterritoryCode) %>%
+  rename(provided = countryterritoryCode) %>%
+  tibble::add_column(standard = NA)
+write.csv(countryterritoryCode_level, file = "/Users/sakelly/maps/ecdc_data/countryterritoryCode_level.csv",  row.names = FALSE)
+
+continentExp_level <- COVID19_geographic_distribution_worldwide %>%
+  dplyr::distinct(continentExp) %>%
+  rename(provided = continentExp) %>%
+  tibble::add_column(standard = NA)
+write.csv(continentExp_level, file = "/Users/sakelly/maps/ecdc_data/continentExp_level.csv",  row.names = FALSE)
+
+### us_coid_statistics_states ###
+
+column_mapping <- cfg_write(provided = c("date", "state", "positive", "negative", "pending", "hospitalizedcurrently", "hospitalizedcumulative", "inicucurrently", "inicucumulative", "onventilatorcurrently", "onventilatorcumulative", "recovered", "dataqualitygrade", "lastupdateet", "hash", "datechecked", "death", "hospitalized", "total", "totaltestresults", "posneg", "fips", "deathincrease", "hopitalizedincrease", "negativeincrease", "positiveincrease", "totaltestresultsincrease"), 
+                            standard = c("date", "state", "positive", "negative", "pending", "hospitalizedcurrently", "hospitalizedcumulative", "inicucurrently", "inicucumulative", "onventilatorcurrently", "onventilatorcumulative", "recovered", "dataqualitygrade", "lastupdateet", "hash", "datechecked", "death", "hospitalized", "total", "totaltestresults", "posneg", "fips", "deathincrease", "hopitalizedincrease", "negativeincrease", "positiveincrease", "totaltestresultsincrease"),
+                            table = column_mapping, 
+                            path = "/Users/sakelly/maps/us_covid_statistics_states/column_mapping.csv")
+
+state_level <- covid_statistics_by_us_states_daily_updates %>%
+  dplyr::distinct(state) %>%
+  rename(provided = state) %>%
+  tibble::add_column(standard = NA)
+write.csv(state_level, file = "/Users/sakelly/maps/us_covid_statistics_states/state_level.csv",  row.names = FALSE)
+
+hash_level <- covid_statistics_by_us_states_daily_updates %>%
+  dplyr::distinct(hash) %>%
+  rename(provided = hash) %>%
+  tibble::add_column(standard = NA)
+write.csv(hash_level, file = "/Users/sakelly/maps/us_covid_statistics_states/hash_level.csv",  row.names = FALSE)
+
+fips_level <- covid_statistics_by_us_states_daily_updates %>%
+  dplyr::distinct(fips) %>%
+  rename(provided = fips) %>%
+  tibble::add_column(standard = NA)
+write.csv(fips_level, file = "/Users/sakelly/maps/us_covid_statistics_states/fips_level.csv",  row.names = FALSE)
