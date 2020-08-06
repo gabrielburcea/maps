@@ -5,8 +5,9 @@ library(tidyverse)
 #### Belgium - COVID19BE_MORT  ###############
 column_mapping <- cfg_write(provided = c("DATE", "REGION", "AGEGROUP", "SEX", "DEATHS"),
                             standard = c("date", "region", "age_band", "gender", "deaths"),
+                            notes = c(NA, NA, NA, NA, "pool"),
                             table = column_mapping,
-                            path = "/Users/gabrielburcea/Rprojects/maps/belgium_cases_mort/config_files/column_mapping.csv")
+                            path = "/Users/gabrielburcea/Rprojects/maps/belgium_cases_mort/column_mapping.csv")
 
 
 
@@ -216,6 +217,7 @@ age_levels <- canada_testing_data %>%
   tibble::add_column(standard = NA) %>%
   mutate(standard = ifelse(is.na(standard), provided, standard))
 write.csv(age_levels, file = "/Users/sakelly/maps/canada_testing_data/age_levels.csv",  row.names = FALSE)
+
 
 country_level <- canada_testing_data %>%
   dplyr::distinct(country) %>%
