@@ -753,5 +753,225 @@ ccg_name_levels <- X111_Online_Covid_19_data_CCG_mapped %>%
 
 write.csv(ccg_name_levels, file = "/Users/gabrielburcea/Rprojects/maps/nhs_111_online_covid_19_data_ccg_mapped/ccg_name_levels.csv", row.names = FALSE) 
 
+### NHS_Patways_Covid_19_data_2020_06_04
+
+column_mapping <- 
+  cfg_write(provided = c("SiteType", "Call Date", "Sex", "AgeBand", "CCGCode", "CCGName", "TriageCount"), 
+            standard = c("site_type", "call_date", "sex", "age_band", "ccg_code","ccg_name", "triage_count"), 
+            table = column_mapping, 
+            path = "/Users/gabrielburcea/Rprojects/maps/nhs_pathways_covid_19_data_2020-06-04/column_mapping.csv")
+
+site_type_levels <- NHS_Pathways_Covid_19_data_2020_06_04 %>%
+  dplyr::distinct(SiteType) %>%
+  dplyr::rename(provided = SiteType) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+write.csv(site_type_levels, file = "/Users/gabrielburcea/Rprojects/maps/nhs_pathways_covid_19_data_2020-06-04/csite_type_levels.csv", row.names = FALSE)
+
+sex_levels <- NHS_Pathways_Covid_19_data_2020_06_04 %>%
+  dplyr::distinct(Sex) %>%
+  dplyr::rename(provided = Sex) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+
+write.csv(sex_levels, file = "/Users/gabrielburcea/Rprojects/maps/nhs_pathways_covid_19_data_2020-06-04/sex_levels.csv", row.names = FALSE)
+
+
+age_band_levels <- NHS_Pathways_Covid_19_data_2020_06_04  %>%
+  dplyr::distinct(AgeBand) %>%
+  dplyr::rename(provided = AgeBand) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+write.csv(age_band_levels, file = "/Users/gabrielburcea/Rprojects/maps/nhs_pathways_covid_19_data_2020-06-04/age_band_levels.csv", row.names = FALSE)
+
+
+
+
+ccg_code_levels <-  NHS_Pathways_Covid_19_data_2020_06_04  %>%
+  dplyr::distinct(CCGCode) %>%
+  dplyr::rename(provided = CCGCode) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+write.csv(ccg_code_levels, file = "/Users/gabrielburcea/Rprojects/maps/nhs_pathways_covid_19_data_2020-06-04/ccg_code_levels.csv", row.names = FALSE) 
+
+
+
+ccg_name_levels <- NHS_Pathways_Covid_19_data_2020_06_04%>%
+  dplyr::distinct(CCGName) %>%
+  dplyr::rename(provided = CCGName) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+
+write.csv(ccg_name_levels, file = "/Users/gabrielburcea/Rprojects/maps/nhs_pathways_covid_19_data_2020-06-04/ccg_name_levels.csv", row.names = FALSE) 
+
+
+# no_deaths_all_causes_care_homes_local_authority 
+# ons_deaths_across_england_wales_scotland_northern_ireland and all the ons data
+# we need to ask further as to how to deal with this type of data 
+
+
+# study survey data 
+
+column_mapping <- cfg_write(provided = c("q1", "q2", "q3", 
+                                         "q4_0", "q4_1", "q4_2", "q4_3",  "q4_4", "q4_5", "q4_6", "q4_7", "q4_8", 
+                                         "q5_0","q5_1","q5_2","q5_3","q5_4","q5_5","q5_6","q5_7", "q5_8","q5_9", "q5_10",  "q5_other", "bmi", "q8", "q9", "q10",
+                                         "q11_0", "q11_1" , "q11_2" , "q11_3" , "q11_4" , "q11_5" ,"q11_6" ,  "q11_7" , "q11_8" , "q11_9" , "q11_10" , "q11_11" , "q11_12" ,"q11_other", "q11_other_value",
+                                         "q12", "q13", "q14a", "q14b", "q14c", "q15", "q16", "q17", "q18_0", "q18_1", "q18_2", "q18_3", "q18_4", "q18_5", "q18_6", 
+                                         "q19_0", "q19_1", "q19_2", "q19_3", "q19_4", "q19_5", "q19_6", "q19_7", "q19_8", "q19_9","q19_10", "q20", "q21", 
+                                         "q22", "q23", "q24", "q25", 
+                                         "q26_0" ,  "q26_1", "q26_2","q26_3", "q26_4", "q26_5", "q26_6", "q26_7", "q26_8", "q26_9", "q26_10", "q26_11", "q26_12", "q26_13", "q26_14", "q26_15", "q26_16"), 
+                            standard = c("agree_share", "sex", "date_birth", "no_say_birth","indigineous", "other_north_american", "european", 
+                                         "caribbean", "latin_central_south_american", "african", "asian", "oceania", "not_visible_minority", "no_say_ethnicity", 
+                                         "south_asian", "chinese", "black", "filipino", "arab", "south_east_asian", "west_asian", "korean", "japanese", "other_ethnicity", 
+                                         "bmi","country_currently_live", "tested_positive_yes_no", "symptoms_experience", 
+                                         "cough", "fever_more_38", "feverishchills", "throat_pain", "rhinits", "shorthness_of_breath", "nausea_vomitting", "headache", "general_weakness", 
+                                         "pain_muscular_chest_abdominal_joint_est", "iritability", "confusion", "diarrhoea", "other", "other_value", 
+                                         "first_symptoms_isolate", "addmitted_hospital", 
+                                         "once_symptoms_days_until_admitted", "ventilator","days_symptoms_days_until_ventilator", 
+                                         "current_health","if_recovered_returned_normal","medication_treat_covid",
+                                         "remdesivir", "chloroquine_and_hydroxychloroquine", "hydroxychloroquine", "ritonavirlopinavir", 
+                                         "ritonavirlopinavir_and_interferon-beta", "tocilizumab", 'none_of_the_above', 
+                                         "no_travel", "Africa", "Asia", "Central America", "Europe", "Middle East", "North America", "Oceania", "South America", 
+                                         "Caribbean", "Within Canada", "contact_person_fever_cough_traveled", "contact_with_covid_19_person",
+                                         "prior_symptom_onset_visited_healthcare_facility", "if_no_attempted", "people_in_household", "pre-existing_conditions", 
+                                         "autoimune", "cancer", "cardiovascular_disease", "cerebrovascular_disease", "chronic_lung_disease", "chronic_neurological_or_neuromuscular_disorder", 
+                                         "diabetes", "obesity", "hypertension", "immunosuppression", "liver_disease", "post_partum_less_than_6_weeks", "pregnancy", "renal_disease", "current_smoker",
+                                         "other", "other_value"), 
+                            table = column_mapping, 
+                            path = "/Users/gabrielburcea/Rprojects/maps/self_care_catalysts/column_mapping.csv")
+
+
+
+sex_levels <- survey_data %>%
+  dplyr::distinct(q2) %>%
+  dplyr::rename(provided = q2) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = c("Female", "Male", "Other"))           
+
+write.csv(sex_levels, file = "/Users/gabrielburcea/Rprojects/maps/self_care_catalysts/sex_levels.csv", row.names = FALSE)
+
+once_symptoms_days_until_admitted_levels <- survey_data %>%
+  dplyr::distinct(q14a) %>%
+  dplyr::rename(provided = q14a) %>%
+  tibble::add_column(standard = NA)
+
+write.csv(once_symptoms_days_until_admitted_levels, file = "/Users/gabrielburcea/Rprojects/maps/self_care_catalysts/once_symptoms_days_until_admitted_levels.csv", row.names = FALSE)
+
+
+days_symptoms_days_until_ventilator_levels <- survey_data %>%
+  dplyr::distinct(q14c) %>%
+  dplyr::rename(provided = q14c) %>%
+  tibble::add_column(standard = NA)
+
+
+write.csv(days_symptoms_days_until_ventilator_levels, file = "/Users/gabrielburcea/Rprojects/maps/self_care_catalysts/days_symptoms_days_until_ventilator_levels.csv", row.names = FALSE)
+
+current_health_levels <- survey_data %>%
+  dplyr::distinct(q15) %>%
+  dplyr::rename(provided = q15) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = c(NA, NA, "Stable")) 
+
+write.csv(current_health_levels, file = "/Users/gabrielburcea/Rprojects/maps/self_care_catalysts/current_health_levels.csv", row.names = FALSE)
+
+if_recovered_returned_normal_levels <- survey_data %>%
+  dplyr::distinct(q16) %>%
+  dplyr::rename(provided = q16) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = c(NA, "1-4 days", "5-7 days",  "+14 days", "8-14 days"))
+
+
+write.csv(if_recovered_returned_normal_levels, file = "/Users/gabrielburcea/Rprojects/maps/self_care_catalysts/if_recovered_returned_normal_levels.csv", row.names = FALSE)
+  
+people_in_household_levels <- survey_data %>% 
+  dplyr::distinct(q24) %>%
+  dplyr::rename(provided = q24) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = c("0 people", "3-5 people", "1-2 people", NA, ">7 people", "6-7 people"))
+
+write.csv(people_in_household_levels, file = "/Users/gabrielburcea/Rprojects/maps/self_care_catalysts/people_in_household_levels.csv", row.names = FALSE)
+
+
+#covid_19_uk_historical_data
+
+column_mapping <- 
+  cfg_write(provided = c("date", "country", "areacode", "area"), 
+            standard = c("date", "country", "are_code", "area"), 
+            table = column_mapping, 
+            path = "/Users/gabrielburcea/Rprojects/maps/uk_covid_19_historical_data/column_mapping.csv")
+
+country_levels <- covid_19_uk_historical_data %>%
+  dplyr::distinct(country) %>%
+  dplyr::rename(provided = country) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+write.csv(country_levels, file = "/Users/gabrielburcea/Rprojects/maps/uk_covid_19_historical_data/country_levels.csv", row.names = FALSE)
+
+
+area_code_levels <- covid_19_uk_historical_data %>%
+  dplyr::distinct(areacode) %>%
+  dplyr::rename(provided = areacode) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+write.csv(area_code_levels, file = "/Users/gabrielburcea/Rprojects/maps/uk_covid_19_historical_data/area_code_levels.csv", row.names = FALSE)
+
+area_levels <- covid_19_uk_historical_data %>%
+  dplyr::distinct(area) %>%
+  dplyr::rename(provided = area) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+write.csv(area_levels, file = "/Users/gabrielburcea/Rprojects/maps/uk_covid_19_historical_data/area_levels.csv", row.names = FALSE)
+
+
+### no_deaths_involving_covid19_care_homes_local_authority
+
+# first need to flatten the dataset - datas as columns will be transformed into rows with pivot_longer function 
+# use this with care - since once transformed then if attempt to run the bellow code, it will give error
+
+deaths_involving_covid_19_care_homes <- deaths_involving_covid_19_care_homes %>%
+  rename(area_code = 'Area Code', area_name = "Area Name") %>%
+  tidyr::pivot_longer(cols = 3:17,
+                      names_to = "Date",
+                      values_to = "Counts")
+
+flat_deaths_involving_covid_19_care_homes <- deaths_involving_covid_19_care_homes
+
+# write.csv(flat_deaths_involving_covid_19_care_homes, file = "/Users/gabrielburcea/Rprojects/maps/no_deaths_involving_covid19_care_homes_local_authority/flat_deaths_involving_covid_19_care_homes.csv", row.names = FALSE)  
+  
+
+column_mapping <- 
+  cfg_write(provided = c("area_code", "area_name", "Date", "Counts"), 
+            standard = c("area_code", "area_name", "data", "counts"),
+            notes = c(NA, NA, NA, "pool"),
+            table = column_mapping, 
+            path = "/Users/gabrielburcea/Rprojects/maps/no_deaths_involving_covid19_care_homes_local_authority/column_mapping.csv")
+
+
+
+
+area_code_levels <- flat_deaths_involving_covid_19_care_homes %>%
+  dplyr::distinct(area_code) %>%
+  dplyr::rename(provided = area_code) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+write.csv(area_code_levels, file = "/Users/gabrielburcea/Rprojects/maps/no_deaths_involving_covid19_care_homes_local_authority/area_code_levels.csv", row.names = FALSE)
+
+area_name_levels <-  flat_deaths_involving_covid_19_care_homes %>%
+  dplyr::distinct(area_name) %>%
+  dplyr::rename(provided = area_name) %>%
+  tibble::add_column(standard = NA) %>%
+  dplyr::mutate(standard = ifelse(is.na(standard), provided, standard))
+
+write.csv(area_name_levels, file = "/Users/gabrielburcea/Rprojects/maps/no_deaths_involving_covid19_care_homes_local_authority/area_name_levels.csv", row.names = FALSE)
+
 
 

@@ -33,6 +33,7 @@ simpleCap <- function(x) {
 #' @param standard levels recoded to new categories
 #' @param table the name of the table to which new table should be saved
 #' @param path the path of the folder to which the table should be saved
+#' @param notes adding notes 
 #'
 #' @return
 #' @export
@@ -40,9 +41,10 @@ simpleCap <- function(x) {
 #' @examples
 cfg_write <- function(provided = c(1:2),
                       standard = c(1:2),
+                      notes = c(1:2),
                       table = name_of_a_table,
                       path = "path/to/save") {
-  table <- tibble::tibble(provided = provided, standard = standard)
+  table <- tibble::tibble(provided = provided, standard = standard, notes = notes)
   table
   
   write.csv(table, file = path, row.names = FALSE)
