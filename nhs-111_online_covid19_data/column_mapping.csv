@@ -1,7 +1,7 @@
 "provided","standard"
 "journeydate","journey_date"
 "sex","sex"
-"age_band","age_band"
+"ageband","age_band"
 "ccgcode","ccg_code"
 "ccgname","ccg_name"
 "Total","total"
