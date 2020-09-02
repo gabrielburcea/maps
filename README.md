@@ -30,6 +30,7 @@ provided County -> county
 
 ### Variable Deaths
 provided Deaths -> deaths
+ontology term: life-death temporal boundary UBERON_0035944
     
 ## Columns to be added to datasets
 ### Data Types
