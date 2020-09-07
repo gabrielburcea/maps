@@ -1,0 +1,193 @@
+"","provided","standard"
+"1","NHS Barking and Dagenham CCG",NA
+"2","NHS Bath and North East Somerset CCG",NA
+"3","NHS Brent CCG",NA
+"4","NHS Bromley CCG",NA
+"5","NHS Canterbury and Coastal CCG",NA
+"6","NHS Bedfordshire CCG",NA
+"7","NHS Castle Point and Rochford CCG",NA
+"8","NHS City and Hackney CCG",NA
+"9","NHS Bassetlaw CCG",NA
+"10","NHS Calderdale CCG",NA
+"11","NHS Corby CCG",NA
+"12","NHS Barnet CCG",NA
+"13","NHS Bexley CCG",NA
+"14","NHS Cambridgeshire and Peterborough CCG",NA
+"15","NHS Coventry and Rugby CCG",NA
+"16","NHS Gloucestershire CCG",NA
+"17","NHS Bradford Districts CCG",NA
+"18","NHS South Tyneside CCG",NA
+"19","NHS Airedale, Wharfedale and Craven CCG",NA
+"20","NHS Barnsley CCG",NA
+"21","NHS Basildon and Brentwood CCG",NA
+"22","NHS Bradford City CCG",NA
+"23","NHS Brighton and Hove CCG",NA
+"24","NHS Bury CCG",NA
+"25","NHS Camden CCG",NA
+"26","NHS Cannock Chase CCG",NA
+"27","NHS Blackburn with Darwen CCG",NA
+"28","NHS Ashford CCG",NA
+"29","NHS Blackpool CCG",NA
+"30","NHS Bolton CCG",NA
+"31","NHS Chorley and South Ribble CCG",NA
+"32","NHS Dartford, Gravesham and Swanley CCG",NA
+"33","NHS Eastbourne, Hailsham and Seaford CCG",NA
+"34","NHS Greenwich CCG",NA
+"35","NHS Croydon CCG",NA
+"36","NHS Darlington CCG",NA
+"37","NHS Hambleton, Richmondshire and Whitby CCG",NA
+"38","NHS Crawley CCG",NA
+"39","NHS Doncaster CCG",NA
+"40","NHS East Staffordshire CCG",NA
+"41","NHS Fareham and Gosport CCG",NA
+"42","NHS Harrogate and Rural District CCG",NA
+"43","NHS Hastings and Rother CCG",NA
+"44","NHS Hillingdon CCG",NA
+"45","NHS Dorset CCG",NA
+"46","NHS Ealing CCG",NA
+"47","NHS East Lancashire CCG",NA
+"48","NHS East Riding of Yorkshire CCG",NA
+"49","NHS Great Yarmouth and Waveney CCG",NA
+"50","NHS Greater Huddersfield CCG",NA
+"51","NHS Hammersmith and Fulham CCG",NA
+"52","NHS Durham Dales, Easington and Sedgefield CCG",NA
+"53","NHS East and North Hertfordshire CCG",NA
+"54","NHS Eastern Cheshire CCG",NA
+"55","NHS Dudley CCG",NA
+"56","NHS East Leicestershire and Rutland CCG",NA
+"57","NHS East Surrey CCG",NA
+"58","NHS Enfield CCG",NA
+"59","NHS Hartlepool and Stockton-on-Tees CCG",NA
+"60","NHS Halton CCG",NA
+"61","NHS Heywood, Middleton and Rochdale CCG",NA
+"62","NHS High Weald Lewes Havens CCG",NA
+"63","NHS Islington CCG",NA
+"64","NHS Knowsley CCG",NA
+"65","NHS North East Essex CCG",NA
+"66","NHS Lincolnshire East CCG",NA
+"67","NHS Lincolnshire West CCG",NA
+"68","NHS Harrow CCG",NA
+"69","NHS Hull CCG",NA
+"70","NHS Leicester City CCG",NA
+"71","NHS Luton CCG",NA
+"72","NHS Mid Essex CCG",NA
+"73","NHS Kernow CCG",NA
+"74","NHS Kingston CCG",NA
+"75","NHS Liverpool CCG",NA
+"76","NHS Milton Keynes CCG",NA
+"77","NHS Newark & Sherwood CCG",NA
+"78","NHS North East Hampshire and Farnham CCG",NA
+"79","NHS North Kirklees CCG",NA
+"80","NHS North Tyneside CCG",NA
+"81","NHS Horsham and Mid Sussex CCG",NA
+"82","NHS Ipswich and East Suffolk CCG",NA
+"83","NHS Medway CCG",NA
+"84","NHS Merton CCG",NA
+"85","NHS Newham CCG",NA
+"86","NHS North Durham CCG",NA
+"87","NHS Havering CCG",NA
+"88","NHS Herefordshire CCG",NA
+"89","NHS Herts Valleys CCG",NA
+"90","NHS Hounslow CCG",NA
+"91","NHS Lambeth CCG",NA
+"92","NHS Nene CCG",NA
+"93","NHS North Norfolk CCG",NA
+"94","NHS Isle of Wight CCG",NA
+"95","NHS Lewisham CCG",NA
+"96","NHS Mansfield and Ashfield CCG",NA
+"97","NHS North Staffordshire CCG",NA
+"98","NHS North Lincolnshire CCG",NA
+"99","NHS Northumberland CCG",NA
+"100","NHS Oldham CCG",NA
+"101","NHS South Cheshire CCG",NA
+"102","NHS South Eastern Hampshire CCG",NA
+"103","NHS Portsmouth CCG",NA
+"104","NHS South Kent Coast CCG",NA
+"105","NHS South Lincolnshire CCG",NA
+"106","NHS South Warwickshire CCG",NA
+"107","NHS Southend CCG",NA
+"108","NHS Southport and Formby CCG",NA
+"109","NHS Southwark CCG",NA
+"110","NHS Nottingham West CCG",NA
+"111","NHS Sheffield CCG",NA
+"112","NHS North West Surrey CCG",NA
+"113","NHS Sandwell and West Birmingham CCG",NA
+"114","NHS South East Staffordshire and Seisdon Peninsula CCG",NA
+"115","NHS South West Lincolnshire CCG",NA
+"116","NHS Southampton CCG",NA
+"117","NHS Redditch and Bromsgrove CCG",NA
+"118","NHS Rushcliffe CCG",NA
+"119","NHS Shropshire CCG",NA
+"120","NHS Somerset CCG",NA
+"121","NHS Nottingham City CCG",NA
+"122","NHS Richmond CCG",NA
+"123","NHS Rotherham CCG",NA
+"124","NHS Salford CCG",NA
+"125","NHS Scarborough and Ryedale CCG",NA
+"126","NHS North Hampshire CCG",NA
+"127","NHS Nottingham North and East CCG",NA
+"128","NHS Oxfordshire CCG",NA
+"129","NHS Redbridge CCG",NA
+"130","NHS South Tees CCG",NA
+"131","NHS Stafford and Surrounds CCG",NA
+"132","NHS Stockport CCG",NA
+"133","NHS Surrey Downs CCG",NA
+"134","NHS Surrey Heath CCG",NA
+"135","NHS Vale of York CCG",NA
+"136","NHS Vale Royal CCG",NA
+"137","NHS Swale CCG",NA
+"138","NHS Thanet CCG",NA
+"139","NHS Thurrock CCG",NA
+"140","NHS Stoke on Trent CCG",NA
+"141","NHS Tower Hamlets CCG",NA
+"142","NHS Walsall CCG",NA
+"143","NHS South Worcestershire CCG",NA
+"144","NHS St Helens CCG",NA
+"145","NHS Sutton CCG",NA
+"146","NHS Swindon CCG",NA
+"147","NHS Tameside and Glossop CCG",NA
+"148","NHS Wandsworth CCG",NA
+"149","NHS Sunderland CCG",NA
+"150","NHS Telford and Wrekin CCG",NA
+"151","NHS West Cheshire CCG",NA
+"152","NHS West Lancashire CCG",NA
+"153","NHS South Sefton CCG",NA
+"154","NHS Warrington CCG",NA
+"155","NHS Warwickshire North CCG",NA
+"156","NHS West Kent CCG",NA
+"157","NHS Wirral CCG",NA
+"158","NHS Wyre Forest CCG",NA
+"159","NHS South Norfolk CCG",NA
+"160","NHS Trafford CCG",NA
+"161","NHS Waltham Forest CCG",NA
+"162","NHS Wakefield CCG",NA
+"163","NHS West Hampshire CCG",NA
+"164","NHS West Leicestershire CCG",NA
+"165","NHS West Norfolk CCG",NA
+"166","NHS Wigan Borough CCG",NA
+"167","NHS Leeds CCG",NA
+"168","NHS Wolverhampton CCG",NA
+"169","NHS Coastal West Sussex CCG",NA
+"170","NHS Guildford and Waverley CCG",NA
+"171","NHS North Cumbria CCG",NA
+"172","NHS Birmingham and Solihull CCG",NA
+"173","NHS Buckinghamshire CCG",NA
+"174","NHS East Berkshire CCG",NA
+"175","NHS Derby and Derbyshire CCG",NA
+"176","NHS West Essex CCG",NA
+"177","NHS Manchester CCG",NA
+"178","NHS Bristol, North Somerset and South Gloucestershire CCG",NA
+"179","NHS Fylde and Wyre CCG",NA
+"180","NHS Berkshire West CCG",NA
+"181","NHS Devon CCG",NA
+"182","NULL",NA
+"183","NHS Morecambe Bay CCG",NA
+"184","NHS West London CCG",NA
+"185","NHS West Suffolk CCG",NA
+"186","NHS Wiltshire CCG",NA
+"187","NHS Newcastle Gateshead CCG",NA
+"188","NHS Norwich CCG",NA
+"189","NHS Greater Preston CCG",NA
+"190","NHS Central London (Westminster) CCG",NA
+"191","NHS Haringey CCG",NA
+"192","NHS North East Lincolnshire CCG",NA

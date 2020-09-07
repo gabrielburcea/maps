@@ -1,6 +1,6 @@
-"provided","standard"
-"DATE","date"
-"REGION","region"
-"AGEGROUP","agegroup"
-"SEX","sex"
-"DEATHS","deaths"
+"provided","standard","notes"
+"DATE","date",NA
+"REGION","region",NA
+"AGEGROUP","age_band",NA
+"SEX","gender",NA
+"DEATHS","deaths","pool"

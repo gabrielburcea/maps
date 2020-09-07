@@ -30,6 +30,7 @@ provided County -> county
 
 ### Variable Deaths
 provided Deaths -> deaths
+ontology term: life-death temporal boundary UBERON_0035944
     
 ## Columns to be added to datasets
 ### Data Types
@@ -39,5 +40,28 @@ Individual data -> individual
 ### UK data 
 Add a column that provides the name of the country the data was collected from
 Column to be named -> location_country
+
+### Constant variables
+Two columns needed
+standard -> Aggregate data -> pool
+         -> Individual data -> individual
+additional column -> OBI_0302716
+                  -> OBI_0002648
+ontologies can be found here : http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002695
+
+### How to deal with different kinds of 'cases'
+Two columns needed -> case count and case type
+case count -> 25
+case type -> deaths
+          -> positive cases
+          -> negative cases
+          -> clinical diagnosis
+          -> self reporting
+          -> symptom report
+
+
+
+#### How to deal with time series data - see data no_deaths_all_causes_care_homes_local_authority 
+
 
 
