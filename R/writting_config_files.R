@@ -319,12 +319,12 @@ column_mapping <- cfg_write(provided = c("DATE", "REGION", "AGEGROUP", "SEX", "D
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/belgium_cases_mort/column_mapping.csv")
 
-region_level <- COVID19BE_MORT %>%
+region_levels <- COVID19BE_MORT %>%
   dplyr::distinct(REGION) %>%
   rename(provided = REGION) %>%
   tibble::add_column(standard = NA) %>%
   mutate(standard = ifelse(is.na(standard), provided, standard))
-write.csv(region_level, file = "/Users/sakelly/maps/belgium_cases_mort/region_level.csv",  row.names = FALSE)
+write.csv(region_levels, file = "/Users/sakelly/maps/belgium_cases_mort/region_levels.csv",  row.names = FALSE)
 
 age_group_levels <- COVID19BE_MORT %>%
   dplyr::distinct(AGEGROUP) %>%
@@ -337,7 +337,7 @@ sex_levels <- COVID19BE_MORT %>%
   dplyr::distinct(SEX) %>%
   rename(provided = SEX) %>%
   tibble::add_column(standard = NA) %>%
-  mutate(standard = c("male", "female", "unknown"))
+  mutate(standard = c("female", "male", "unknown"))
 write.csv(sex_levels, file = "/Users/sakelly/maps/belgium_cases_mort/sex_levels.csv", row.names = FALSE)
 
 
