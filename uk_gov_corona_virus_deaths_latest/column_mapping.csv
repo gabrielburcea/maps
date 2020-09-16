@@ -1,7 +1,4 @@
-"provided","standard"
-"Area.name","area_name"
-"Area.code","area_code"
-"Area.type","area_type"
-"Reporting.date","reporting_date"
-"Daily.change.in.deaths","daily_change_in_deaths"
-"Cumulative.deaths","cumulative_deaths"
+provided,standard,term_id,units,units_id,value_mapping,notes
+Area.name,country,ENVO:00000009,,,,change area_name to country? Also do not have a levels config file but should do right?
+Reporting.date,date,,,,,standardise reporting date to date?
+Daily.change.in.deaths,case_count,STATO:0000047,,,,

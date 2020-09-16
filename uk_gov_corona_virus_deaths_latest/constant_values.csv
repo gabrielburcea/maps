@@ -1,0 +1,3 @@
+﻿column_name,term_id,constant_value,value_id,units,units_id,notes
+area_type,ENVO:00000009,UK,,,,term id for area_type to be checked
+case_type,EUPATH:0000291,daily reported deaths confirmed likely from Covid-19,,,,

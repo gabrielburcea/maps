@@ -1,6 +1,6 @@
-"provided","standard","notes"
-"DATE","date",NA
-"REGION","region",NA
-"AGEGROUP","age_band",NA
-"SEX","gender",NA
-"DEATHS","deaths","pool"
+provided,standard,term_id,units,units_id,value_mapping_file,notes
+DATE,date,,,,,ISO dates - confirmed by Chris
+REGION,region,NCIT:C87189,,,region_levels.csv,This is for locality? What do you think?
+AGEGROUP,age_band,APOLLO_SV:00000241,year,UO:0000036,age_group_levels.csv,Is this the correct ontology?
+SEX,sex,PATO:0000047,,,sex_levels.csv,NA
+DEATHS,case_count,STATO:0000047,,,,pool - where should we add this?
