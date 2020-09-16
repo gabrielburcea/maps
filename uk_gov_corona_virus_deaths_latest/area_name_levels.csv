@@ -1,6 +1,6 @@
-"provided","standard"
-"Wales",5
-"Scotland",3
-"Northern Ireland",2
-"United Kingdom",4
-"England",1
+provided,standard,term_id,notes
+Wales,5,,not sure why the script adds numbers but this should be Wales in standard
+Scotland,3,,
+Northern Ireland,2,,
+United Kingdom,4,,
+England,1,,
