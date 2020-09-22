@@ -47,7 +47,10 @@ standard -> Aggregate data -> pool
          -> Individual data -> individual
 additional column -> OBI_0302716
                   -> OBI_0002648
-ontologies can be found here : http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002695
+ontologies can be found here : https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/blob/master/src/ontology/eupath_dev.owl
+
+git clone this onto your computer and view using protege which can be downloaded here:
+https://protege.stanford.edu/
 
 ### How to deal with different kinds of 'cases'
 Two columns needed -> case count and case type
