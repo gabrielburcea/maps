@@ -66,7 +66,7 @@ cfg_write <- function(provided = c(1:2),
 #' @export
 #'
 #' @examples
-const_val_fct <- function(column_mapping = c(1:4), 
+const_val_fct <- function(column_mapping = c("country", "case_type", "geographic_resolution", NA), 
                           term_id = c(1:4), 
                           constant_values = c(1:4), 
                           values_id = c(1:4), 
