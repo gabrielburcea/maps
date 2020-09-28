@@ -66,13 +66,14 @@ cfg_write <- function(provided = c(1:2),
 #' @export
 #'
 #' @examples
-const_val_fct <- function(column_mapping = c("country", "case_type", "geographic_resolution", NA), 
-                          term_id = c(1:4), 
-                          constant_values = c(1:4), 
-                          values_id = c(1:4), 
-                          units = c(1:4), 
-                          units_id = c(1:4), 
-                          notes = c(1:4), 
+const_val_fct <- function(column_mapping = c(1:7), 
+                          term_id = c(1:7), 
+                          constant_values = c(1:7), 
+                          values_id = c(1:7), 
+                          units = c(1:7), 
+                          units_id = c(1:7), 
+                          notes = c(1:7), 
+                          table = table,
                           path = "path/to/save"){
   
   
