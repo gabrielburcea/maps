@@ -51,6 +51,49 @@ cfg_write <- function(provided = c(1:2),
   
 }
 
+#' const_val_fct 
+#'
+#' @param column_mapping 
+#' @param term_id 
+#' @param constant_values 
+#' @param values_id 
+#' @param units 
+#' @param units_id 
+#' @param notes 
+#' @param path 
+#'
+#' @return
+#' @export
+#'
+#' @examples
+const_val_fct <- function(column_mapping = c(1:4), 
+                          term_id = c(1:4), 
+                          constant_values = c(1:4), 
+                          values_id = c(1:4), 
+                          units = c(1:4), 
+                          units_id = c(1:4), 
+                          notes = c(1:4), 
+                          path = "path/to/save"){
+  
+  
+  table <- tibble::tibble(column_mapping = column_mapping, 
+                          term_id = term_id, 
+                          constant_values = constant_values, 
+                          values_id = values_id, 
+                          units = units, 
+                          units_id = units_id, 
+                          notes = notes)
+  
+  table 
+  
+  write.csv(table, file = path, row.names = FALSE)
+  
+}
+
+
+
+
+
 #' apply_cl_cm
 #'
 #' @param data a dataframe or a tibble
