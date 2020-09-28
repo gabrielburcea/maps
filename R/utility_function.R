@@ -66,28 +66,28 @@ cfg_write <- function(provided = c(1:2),
 #' @export
 #'
 #' @examples
-const_val_fct <- function(column_mapping = c(1:7), 
-                          term_id = c(1:7), 
-                          constant_values = c(1:7), 
-                          values_id = c(1:7), 
-                          units = c(1:7), 
-                          units_id = c(1:7), 
-                          notes = c(1:7), 
+const_val_fct <- function(column_name = c(1:2), 
+                          term_id = c(1:2), 
+                          constant_values = c(1:2), 
+                          values_id = c(1:2), 
+                          units = c(1:2), 
+                          units_id = c(1:2), 
+                          notes = c(1:2), 
                           table = table,
                           path = "path/to/save"){
   
   
-  table <- tibble::tibble(column_mapping = column_mapping, 
-                          term_id = term_id, 
-                          constant_values = constant_values, 
-                          values_id = values_id, 
-                          units = units, 
-                          units_id = units_id, 
-                          notes = notes)
+  df <- tibble::tibble(column_name = column_name, 
+                       term_id = term_id, 
+                       constant_values = constant_values, 
+                       values_id = values_id, 
+                       units = units, 
+                       units_id = units_id, 
+                       notes = notes)
   
-  table 
+  df 
   
-  write.csv(table, file = path, row.names = FALSE)
+  write.csv(df, file = path, row.names = FALSE)
   
 }
 
