@@ -1,0 +1,11 @@
+"column_name","term_id","constant_values","values_id","units","units_id","notes"
+"country","ENVO:00000009","Mexico",NA,NA,NA,NA
+"report_date","EUPATH:0000151",NA,NA,NA,NA,"talk"
+"state","PATO:0000047",NA,NA,NA,NA,NA
+"sex","OBI:0001167",NA,NA,NA,NA,NA
+"age",NA,NA,NA,NA,NA,NA
+"date_of_start_case_type",NA,NA,NA,NA,NA,NA
+"status",NA,NA,NA,NA,NA,NA
+"origin",NA,NA,NA,NA,NA,NA
+"date_of_arrival_in_mexico",NA,NA,NA,NA,NA,NA
+"report_url",NA,NA,NA,NA,NA,NA
