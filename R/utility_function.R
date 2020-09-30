@@ -32,8 +32,12 @@ simpleCap <- function(x) {
 #' @param provided categorical levels of the variable that are provided in the original dataset
 #' @param standard levels recoded to new categories
 #' @param table the name of the table to which new table should be saved
+#' @param term_id 
+#' @param units 
+#' @param units_id 
+#' @param value_mapping_file 
 #' @param path the path of the folder to which the table should be saved
-#' @param notes adding notes 
+#' @param notes 
 #'
 #' @return
 #' @export
@@ -41,15 +45,29 @@ simpleCap <- function(x) {
 #' @examples
 cfg_write <- function(provided = c(1:2),
                       standard = c(1:2),
-                      notes = c(1:2),
-                      table = name_of_a_table,
+                      term_id = c(1:2),
+                      units = c(1:2), 
+                      units_id = c(1:2), 
+                      value_mapping_file = c(1:2),
+                      notes = c(1:2), 
+                      table = table,
                       path = "path/to/save") {
-  table <- tibble::tibble(provided = provided, standard = standard, notes = notes)
-  table
   
-  write.csv(table, file = path, row.names = FALSE)
+  
+  df <- tibble::tibble(provided = provided, 
+                      standard = standard, 
+                      term_id = term_id, 
+                      units = units, 
+                      units_id = units_id,
+                      value_mapping_file = value_mapping_file, 
+                      notes = notes)
+  df
+  
+  write.csv(df, file = path, row.names = FALSE)
   
 }
+
+
 
 #' const_val_fct 
 #'
