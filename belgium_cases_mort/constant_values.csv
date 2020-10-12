@@ -1,5 +1,4 @@
-﻿column_name,term_id,constant_value,value_id,units,units_id,notes
+column_name,term_id,constant_value,value_id,units,units_id,notes
 country,ENVO:00000009,Belgium,,,,
 case_type,EUPATH:0000291,death confirmed likely from Covid-19,UBERON:0000071,,,
-location_of_death,EUPATH:0000189,,,,,check with ontology team
-geographic_resolution,,admin level 0,,,,??
+geographic_resolution,,admin level 1,,,,
