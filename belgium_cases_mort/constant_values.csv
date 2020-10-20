@@ -1,4 +1,4 @@
 column_name,term_id,constant_value,value_id,units,units_id,notes
 country,ENVO:00000009,Belgium,,,,
-case_type,EUPATH:0000291,death confirmed likely from Covid-19,UBERON:0000071,,,
-geographic_resolution,,admin level 1,,,,
+case_type,,death confirmed likely from Covid-19,,,,
+geographic_resolution,ENVO:00000004,admin level 1,ENVO:00000005,,,

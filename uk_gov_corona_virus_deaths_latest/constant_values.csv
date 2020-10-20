@@ -1,4 +1,4 @@
 ﻿column_name,term_id,constant_value,value_id,units,units_id,notes
-geographic_resolution,,admin level 1,,,,
-case_type,EUPATH:0000291,daily reported deaths confirmed likely from Covid-19,,,,
-age_range,APOLLO_SV:00000241,0-120,,,,discuss what to do about various age range categories
+geographic_resolution,ENVO:00000004,admin level 1,ENVO:00000005,,,
+case_type,,daily reported deaths confirmed likely from Covid-19,,,,
+age_range,APOLLO_SV:00000241,0-120,year,UO:0000036,,discuss what to do about various age range categories
