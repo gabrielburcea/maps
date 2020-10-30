@@ -9,12 +9,12 @@ column_mapping <- cfg_write(provided = c("dateRep", "day", "month", "year", "cas
                             path = "/Users/sakelly/maps/ecdc_data/column_mapping.csv")
 
 
-constant_values <- const_val_fct(column_name = c("country", "case_type", "geographic_resolution"), 
-                                 term_id =  c('ENVO:00000009', NA, "ENVO:00000004"),
-                                 constant_values =  c("Canada", "cases", "admin level 0"),
-                                 values_id = c(NA, NA, "ENVO???"), 
-                                 units = c(NA, NA, NA), 
-                                 units_id = c(NA, NA, NA), 
-                                 notes = c(NA, NA, NA), 
+constant_values <- const_val_fct(column_name = c("case_type", "geographic_resolution"), 
+                                 term_id =  c(NA, "ENVO:00000004"),
+                                 constant_values =  c("cases", "admin level 0"),
+                                 values_id = c(NA, "ENVO???"), 
+                                 units = c(NA, NA), 
+                                 units_id = c(NA, NA), 
+                                 notes = c(NA, NA), 
                                  table = constant_values,
                                  path = "/Users/sakelly/maps/ecdc_data/constant_values.csv")
