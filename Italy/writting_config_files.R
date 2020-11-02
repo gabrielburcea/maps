@@ -2,7 +2,7 @@
 library(tidyverse)
 
 column_mapping <- cfg_write(provided = c("report_date", "state", "region_code", "region_name", "lat", "long", "hospitalised_with_symptoms", "intensive_care", "total_hospitalised", "home_isolation", "total_positive", "variation_total_positive", "new_positive", "discharged", "deceased"), 
-                            standard = c("report_date", "country", "region_code", "geographic_location", "lat", "long", "hospitalised_with_symptoms", "intensive_care", "total_hospitalised", "home_isolation", "total_positive", "variation_total_positive", "new_positive", "discharged", "deceased"),
+                            standard = c("report_date", "country", "region_code", "geographic_resolution", "lat", "long", "hospitalised_with_symptoms", "intensive_care", "total_hospitalised", "home_isolation", "total_positive", "variation_total_positive", "new_positive", "discharged", "deceased"),
                             term_id = c(NA, NA, NA, "GAZ:00000448", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA),
                             units = c(NA, NA, NA, NA,NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA), 
                             units_id = c(NA, NA, NA, NA,NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA), 
