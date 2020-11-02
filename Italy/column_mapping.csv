@@ -1,21 +1,16 @@
-"provided","standard"
-"data","data"
-"stato","stato"
-"codice_regione","codice_regione"
-"demoninazione_regione","demoninazione_regione"
-"lat","GPS_latitude"
-"long","GPS_longitude"
-"ricoverati_con_sintomi","ricoverati_con_sintomi"
-"terapia_intensiva","terapia_intensiva"
-"totale_ospdalizzati","totale_ospdalizzati"
-"isolamento_domicilaire","isolamento_domicilaire"
-"totale_positivi","totale_positivi"
-"variazione_totale_positivi","variazione_totale_positivi"
-"nuovi_positivi","nuovi_positivi"
-"dimessi_guariti","dimessi_guariti"
-"deceduti","deceduti"
-"total_casi","total_casi"
-"tamponi","tamponi"
-"casi_testati","casi_testati"
-"note_it","note_it"
-"note_en","note_en"
+"provided","standard","term_id","units","units_id","value_mapping_file","notes"
+"report_date","report_date",NA,NA,NA,NA,NA
+"state","country",NA,NA,NA,NA,"geographic location"
+"region_code","region_code",NA,NA,NA,NA,NA
+"region_name","geographic_location","GAZ:00000448",NA,NA,"region_name_levels",NA
+"lat","lat",NA,NA,NA,NA,"need to check what code?"
+"long","long",NA,NA,NA,NA,"need to check what code?"
+"hospitalised_with_symptoms","hospitalised_with_symptoms",NA,NA,NA,NA,NA
+"intensive_care","intensive_care",NA,NA,NA,NA,NA
+"total_hospitalised","total_hospitalised",NA,NA,NA,NA,NA
+"home_isolation","home_isolation",NA,NA,NA,NA,NA
+"total_positive","total_positive",NA,NA,NA,NA,NA
+"variation_total_positive","variation_total_positive",NA,NA,NA,NA,NA
+"new_positive","new_positive",NA,NA,NA,NA,NA
+"discharged","discharged",NA,NA,NA,NA,NA
+"deceased","deceased",NA,NA,NA,NA,NA

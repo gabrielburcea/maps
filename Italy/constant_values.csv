@@ -1,22 +1,4 @@
 "column_name","term_id","constant_values","values_id","units","units_id","notes"
 "country","ENVO:00000009","Italy",NA,NA,NA,NA
-"data",NA,NA,NA,NA,NA,"talk"
-"stato",NA,NA,NA,NA,NA,NA
-"codice_regione",NA,NA,NA,NA,NA,NA
-"demoninazione_regione",NA,NA,NA,NA,NA,NA
-"lat",NA,NA,NA,NA,NA,NA
-"long",NA,NA,NA,NA,NA,NA
-"ricoverati_con_sintomi",NA,NA,NA,NA,NA,NA
-"terapia_intensiva",NA,NA,NA,NA,NA,NA
-"totale_ospdalizzati",NA,NA,NA,NA,NA,NA
-"isolamento_domicilaire",NA,NA,NA,NA,NA,NA
-"totale_positivi",NA,NA,NA,NA,NA,NA
-"variazione_totale_positivi",NA,NA,NA,NA,NA,NA
-"nuovi_positivi",NA,NA,NA,NA,NA,NA
-"dimessi_guariti",NA,NA,NA,NA,NA,NA
-"deceduti",NA,NA,NA,NA,NA,NA
-"total_casi",NA,NA,NA,NA,NA,NA
-"tamponi",NA,NA,NA,NA,NA,NA
-"casi_testati",NA,NA,NA,NA,NA,NA
-"note_it",NA,NA,NA,NA,NA,NA
-"note_en",NA,NA,NA,NA,NA,NA
+"geographic_resolution","GAZ:00000448",NA,NA,NA,NA,NA
+"case_type",NA,"this seems to have so many variables that may need further attention as to what it is the case_type",NA,NA,NA,"ask ontology team"
