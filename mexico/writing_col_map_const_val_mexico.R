@@ -16,9 +16,6 @@ library(tidyverse)
 
 
 
-
-
-
 column_mapping <- cfg_write(provided = c("report_date", "state", "sex", "age", "date_of_start_of_symptoms", "status", "origin", "date_of_arrival_in_mexico", "report_url"), 
                             standard = c("date", "state", "sex", "age", "date_of_start_of_symptoms", "status", "origin", "date_of_arrival_in_mexico", "report_url"),
                             term_id = c(NA, "GAZ:00000448", "PATO:0000047", "OBI:0001169",NA, NA, NA, NA, NA),
@@ -32,8 +29,8 @@ column_mapping <- cfg_write(provided = c("report_date", "state", "sex", "age", "
 
 
 constant_values <- const_val_fct(column_name = c("country" , "geographic_resolution", "case_type" ), 
-                                 term_id =  c('ENVO:00000009', NA, NA),
-                                 constant_values =  c("Mexico", NA, "symptoms"), 
+                                 term_id =  c('ENVO:00000009', "GAZ:00000448", NA),
+                                 constant_values =  c("Mexico", NA, "status of covid: suspected or confirmed"), 
                                  values_id = c(NA, NA, NA),
                                  units = c(NA, NA, NA), 
                                  units_id = c(NA, NA, NA), 
