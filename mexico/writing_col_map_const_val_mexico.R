@@ -1,4 +1,22 @@
-# mexico 
+# mexico
+library(tidyverse)
+
+### Translating the variable status and then applying the translation on the wider dataset 
+# unique(covid19_mexico_daily_cases$status)
+# 
+# status_levels <- c(
+#   "Suspected" = "Sospechoso", 
+#   "Confirmed" = "Confirmado", 
+#   "Suspected" = "Sosechoso" # this may be "Sospechoso" - quality data issues? 
+#   
+# )
+# covid19_mexico_daily_cases <- covid19_mexico_daily_cases %>%
+#   dplyr::mutate(status = forcats::fct_recode(status, !!!status_levels))
+# write.csv(covid19_mexico_daily_cases, file = "/Users/gabrielburcea/rprojects/maps/mexico/covid19_mexico_daily_cases.csv", row.names = FALSE)
+
+
+
+
 
 
 column_mapping <- cfg_write(provided = c("report_date", "state", "sex", "age", "date_of_start_of_symptoms", "status", "origin", "date_of_arrival_in_mexico", "report_url"), 
@@ -22,3 +40,5 @@ constant_values <- const_val_fct(column_name = c("country" , "geographic_resolut
                                  notes = c(NA, NA, "ask ontology team"), 
                                  table = constant_values,
                                  path = "/Users/gabrielburcea/rprojects/maps/mexico/constant_values.csv")
+
+

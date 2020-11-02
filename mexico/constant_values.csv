@@ -1,4 +1,4 @@
 "column_name","term_id","constant_values","values_id","units","units_id","notes"
 "country","ENVO:00000009","Mexico",NA,NA,NA,NA
-"geographic_resolution",NA,NA,NA,NA,NA,NA
-"case_type",NA,"symptoms",NA,NA,NA,"ask ontology team"
+"geographic_resolution","GAZ:00000448",NA,NA,NA,NA,NA
+"case_type",NA,"status of covid: suspected or confirmed",NA,NA,NA,"ask ontology team"
