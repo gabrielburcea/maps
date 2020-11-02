@@ -1,10 +1,10 @@
 "provided","standard","term_id","units","units_id","value_mapping_file","notes"
 "report_date","date",NA,NA,NA,NA,NA
-"state","state","GAZ:00000448",NA,NA,"state_levels.csv","geographic location or locatio of?"
+"state","geographical_resolution","GAZ:00000448",NA,NA,"state_levels.csv","geographic location or locatio of?"
 "sex","sex","PATO:0000047",NA,NA,"sex_levels.csv",NA
 "age","age","OBI:0001169",NA,NA,NA,NA
 "date_of_start_of_symptoms","date_of_start_of_symptoms",NA,NA,NA,"status_levels.csv","need to check what date?"
-"status","status",NA,NA,NA,"origin_levels","this is in spanish: suspected"
+"status","status",NA,NA,NA,NA,"this is in spanish: suspected"
 "origin","origin",NA,NA,NA,NA,NA
 "date_of_arrival_in_mexico","date_of_arrival_in_mexico",NA,NA,NA,NA,NA
 "report_url","report_url",NA,NA,NA,NA,NA
