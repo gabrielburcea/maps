@@ -31,8 +31,8 @@ column_mapping <- cfg_write(provided = c("report_date", "state", "sex", "age", "
                             path = "/Users/gabrielburcea/rprojects/maps/mexico/column_mapping.csv")
 
 
-constant_values <- const_val_fct(column_name = c("country" , "geographic_resolution", "case_type" ), 
-                                 term_id =  c('ENVO:00000009', "GAZ:00000448", NA),
+constant_values <- const_val_fct(column_name = c("country" , "geographic_resolution", "clinical_finding" ), 
+                                 term_id =  c('ENVO:00000009', "GAZ:00000448", "OGMS:0000014"),
                                  constant_values =  c("Mexico", NA, "status of covid: suspected or confirmed"), 
                                  values_id = c(NA, NA, NA),
                                  units = c(NA, NA, NA), 
