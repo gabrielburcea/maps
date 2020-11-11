@@ -1,7 +1,7 @@
 ###canada_testing_data - Canada###
 
 column_mapping <- cfg_write(provided = c("id", "date", "age", "case_id", "country", "province", "region", "sex", "travel", "travelh"), 
-                            standard = c("id", "date", "age", "case_id", "country", "province", "region", "sex", "travel", "travelh"),
+                            standard = c("id", "date", "age", "case_id", "country", "geographic_location", "region", "sex", "travel", "travelh"),
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/canada_testing_data/column_mapping.csv") 
 

@@ -1,7 +1,7 @@
 ###public-covid-19-cases-canada - Canada###
 
 column_mapping <- cfg_write(provided = c("case_id", "provincal_case_id", "age", "sex", "health_region", "province", "country", "date_report", "report_week", "has_travel_history", "locally_acquired", "case_source"), 
-                            standard = c("case_id", "provincal_case_id", "age", "sex", "health_region", "province", "country", "date", "report_week", "has_travel_history", "locally_acquired", "case_source"), 
+                            standard = c("case_id", "provincal_case_id", "age", "sex", "health_region", "geographic_location", "country", "date", "report_week", "has_travel_history", "locally_acquired", "case_source"), 
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/canada_public_covid_19_cases/column_mapping.csv") 
 

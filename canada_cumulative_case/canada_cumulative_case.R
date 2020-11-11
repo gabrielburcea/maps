@@ -11,8 +11,8 @@ column_mapping <- cfg_write(provided = c("objectid", "hr_uid", "province", "engn
 
 constant_values <- const_val_fct(column_name = c("country", "clinical_finding", "geographic_resolution"), 
                                  term_id =  c('ENVO:00000009', "OGMS:0000014", "ENVO:00000004"),
-                                 constant_values =  c("Canada", NA, "admin level 4"),
-                                 values_id = c(NA, NA, "ENVO:00000008"), 
+                                 constant_values =  c("Canada", NA, "admin level 1"),
+                                 values_id = c(NA, NA, "ENVO:00000005"), 
                                  units = c(NA, NA, NA), 
                                  units_id = c(NA, NA, NA), 
                                  notes = c(NA, NA, NA), 

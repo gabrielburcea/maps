@@ -1,4 +1,4 @@
-﻿case_type,case_count,dateRep,day,month,year,countriesAndTerritories,geoId,countryterritoryCode,popData2018,continentExp
+clinical_finding,case_count,dateRep,day,month,year,countriesAndTerritories,geoId,countryterritoryCode,popData2018,continentExp
 deaths,30,2020-06-08,8,6,2020,Afghanistan,AF,AFG,37172386,Asia
 deaths,18,2020-06-07,7,6,2020,Afghanistan,AF,AFG,37172386,Asia
 deaths,9,2020-06-06,6,6,2020,Afghanistan,AF,AFG,37172386,Asia
