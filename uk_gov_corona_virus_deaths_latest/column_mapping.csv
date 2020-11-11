@@ -1,4 +1,4 @@
 provided,standard,term_id,units,units_id,value_mapping,notes
-Area.name,country,ENVO:00000009,,,area_name_levels.csv,change area_name to country? Also do not have a levels config file but should do right?
-Reporting.date,date,,,,,standardise reporting date to date?
+Area.name,geographic_location,GAZ:00000448,,,area_name_levels.csv,
+Reporting.date,date,,,,,
 Daily.change.in.deaths,case_count,STATO:0000047,,,,
