@@ -1,7 +1,7 @@
 ### belgium_covid19_cases_hosp - BELGIUM ###
 
 column_mapping <- cfg_write(provided = c("DATE", "PROVINCE", "REGION", "NR_REPORTING", "TOTAL_IN", "TOTAL_IN_ICU", "TOTAL_IN_RESP", "TOTAL_IN_ECMO", "NEW_IN", "NEW_OUT"), 
-                            standard = c("date", "province", "region", "nr_reporting", "total_in", "total_in_icu", "total_in_resp", "total_in_ecmo", "new_in", "new_out"),
+                            standard = c("date", "province", "region", "nr_reporting", "total_in", "total_in_icu", "total_in_resp", "total_in_ecmo", "case_count", "new_out"),
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/belgium_covid19_cases_hosp/column_mapping.csv")
 

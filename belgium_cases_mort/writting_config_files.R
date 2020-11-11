@@ -1,7 +1,7 @@
 ### belgium_cases_mort - BELGIUM ###
 
 column_mapping <- cfg_write(provided = c("DATE", "REGION", "AGEGROUP", "SEX", "DEATHS"), 
-                            standard = c("date", "region", "agegroup", "sex", "deaths"),
+                            standard = c("date", "geographic_location", "age_band", "sex", "case_count"),
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/belgium_cases_mort/column_mapping.csv")
 

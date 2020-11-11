@@ -1,4 +1,4 @@
 column_name,term_id,constant_value,value_id,units,units_id,notes
 country,ENVO:00000009,Belgium,,,,
-case_type,,death confirmed likely from Covid-19,,,,
+clinical_finding,OGMS:0000014,death confirmed likely from Covid-19,,,,
 geographic_resolution,ENVO:00000004,admin level 1,ENVO:00000005,,,

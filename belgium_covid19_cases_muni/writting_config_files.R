@@ -1,7 +1,7 @@
 ### belgium_covid19_cases_muni - BELGIUM ###
 
 column_mapping <- cfg_write(provided = c("DATE", "NIS5", "TX_DESCR_NL", "TX_DESCR_FR", "TX_ADM_DSTR_DECSR_NL", "TX_ADM_DSTR_DESCR_FR", "TX_PROV_DESCR_NL", "TX_PROV_DESCR_FR", "TX_RGN_DESCR_NL", "TX_RGN_DESCR_FR", "CASES"), 
-                            standard = c("date", "nis5", "tx_descr_nl", "tx_descr_fr", "tx_adm_dstr_descr", "tx_adm_dstr_descr_fr", "tx_prov_descr_nl", "tx_prov_descr_fr", "tx_rgn_descr_nl", "tx_rgn_descr_fr", "cases"),
+                            standard = c("date", "nis5", "tx_descr_nl", "tx_descr_fr", "tx_adm_dstr_descr", "tx_adm_dstr_descr_fr", "tx_prov_descr_nl", "tx_prov_descr_fr", "tx_rgn_descr_nl", "tx_rgn_descr_fr", "case_count"),
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/belgium_covid19_cases_muni/column_mapping.csv")
 

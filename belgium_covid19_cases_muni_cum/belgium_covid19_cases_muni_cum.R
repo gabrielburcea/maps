@@ -9,8 +9,8 @@ column_mapping <- cfg_write(provided = c("NIS5", "TX_DESCR_NL", "TX_DESCR_FR", "
                             path = "/Users/sakelly/maps/belgium_covid19_cases_muni_cum/column_mapping.csv")
 
 
-constant_values <- const_val_fct(column_name = c("country", "case_type", "geographic_resolution"), 
-                                 term_id =  c('ENVO:00000009', NA, "ENVO:00000004"),
+constant_values <- const_val_fct(column_name = c("country", "clinical_finding", "geographic_resolution"), 
+                                 term_id =  c('ENVO:00000009', "OGMS:0000014", "ENVO:00000004"),
                                  constant_values =  c("Belgium","cases", "admin level 3"),
                                  values_id = c(NA, NA, "ENVO_00000007"), 
                                  units = c(NA, NA, NA), 
