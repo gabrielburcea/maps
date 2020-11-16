@@ -24,4 +24,10 @@ location_levels <- preprocessed %>%
   tibble::add_column(standard = NA)
 write.csv(location_levels, file = "/Users/sakelly/maps/worldwide_owid-covid_data/location_levels.csv",  row.names = FALSE)
 
+clinical_finding_levels <- preprocessed %>%
+  dplyr::distinct(clinical_finding) %>%
+  rename(provided = clinical_finding) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(clinical_finding_levels, file = "/Users/sakelly/maps/worldwide_owid-covid_data/clinical_finding_levels.csv", row.names = FALSE)
 

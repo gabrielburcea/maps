@@ -1,7 +1,7 @@
 ### us_coid_statistics_states ###
 
-column_mapping <- cfg_write(provided = c("date", "state", "positive", "negative", "pending", "hospitalizedcurrently", "hospitalizedcumulative", "inicucurrently", "inicucumulative", "onventilatorcurrently", "onventilatorcumulative", "recovered", "dataqualitygrade", "lastupdateet", "hash", "datechecked", "death", "hospitalized", "total", "totaltestresults", "posneg", "fips", "deathincrease", "hopitalizedincrease", "negativeincrease", "positiveincrease", "totaltestresultsincrease"), 
-                            standard = c("date", "state", "positive", "negative", "pending", "hospitalizedcurrently", "hospitalizedcumulative", "inicucurrently", "inicucumulative", "onventilatorcurrently", "onventilatorcumulative", "recovered", "dataqualitygrade", "lastupdateet", "hash", "datechecked", "death", "hospitalized", "total", "totaltestresults", "posneg", "fips", "deathincrease", "hopitalizedincrease", "negativeincrease", "positiveincrease", "totaltestresultsincrease"),
+column_mapping <- cfg_write(provided = c("case_count", "clinical_finding", "date", "state", "positive", "negative", "pending", "hospitalizedcurrently", "hospitalizedcumulative", "inicucurrently", "inicucumulative", "onventilatorcurrently", "onventilatorcumulative", "recovered", "dataqualitygrade", "lastupdateet", "hash", "datechecked", "death", "hospitalized", "total", "totaltestresults", "posneg", "fips", "hopitalizedincrease", "negativeincrease", "totaltestresultsincrease"), 
+                            standard = c("case_count", "clinical_finding", "date", "geographic_location", "positive", "negative", "pending", "hospitalizedcurrently", "hospitalizedcumulative", "inicucurrently", "inicucumulative", "onventilatorcurrently", "onventilatorcumulative", "recovered", "dataqualitygrade", "lastupdateet", "hash", "datechecked", "death", "hospitalized", "total", "totaltestresults", "posneg", "fips", "hopitalizedincrease", "negativeincrease", "totaltestresultsincrease"),
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/us_covid_statistics_states/column_mapping.csv")
 
@@ -22,3 +22,10 @@ fips_levels <- covid_statistics_by_us_states_daily_updates %>%
   rename(provided = fips) %>%
   tibble::add_column(standard = NA)
 write.csv(fips_levels, file = "/Users/sakelly/maps/us_covid_statistics_states/fips_levels.csv",  row.names = FALSE)
+
+clinical_finding_levels <- preprocessed %>%
+  dplyr::distinct(clinical_finding) %>%
+  rename(provided = clinical_finding) %>%
+  tibble::add_column(standard = NA) %>%
+  mutate(standard = ifelse(is.na(standard), provided, standard))
+write.csv(clinical_finding_levels, file = "/Users/sakelly/maps/us_covid_statistics_states/clinical_finding_levels.csv", row.names = FALSE)
