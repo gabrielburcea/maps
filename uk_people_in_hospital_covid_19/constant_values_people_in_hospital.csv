@@ -1,0 +1,4 @@
+"column_name","term_id","constant_values","values_id","units","units_id","notes"
+"country","ENVO:00000009","United Kingdom",NA,NA,NA,NA
+"geographic_resolution","ENVO:00000004","admin level 1 or 2?",NA,NA,NA,NA
+"case_type",NA,"Covid hospitalised",NA,NA,NA,"counts of people admitted in hospital due to COVID tested positive"
