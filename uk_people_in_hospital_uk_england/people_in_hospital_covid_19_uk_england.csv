@@ -1,0 +1,891 @@
+"Date","area","people_in_hospital_count"
+2020-03-19,"East of England",NA
+2020-03-19,"London",NA
+2020-03-19,"Midlands",NA
+2020-03-19,"North East & Yorkshire",NA
+2020-03-19,"North West",NA
+2020-03-19,"South East",NA
+2020-03-19,"South West",NA
+2020-03-19,"Scotland",NA
+2020-03-19,"Wales",NA
+2020-03-19,"Northern Ireland",205
+2020-03-20,"East of England",59
+2020-03-20,"London",819
+2020-03-20,"Midlands",218
+2020-03-20,"North East & Yorkshire",82
+2020-03-20,"North West",130
+2020-03-20,"South East",176
+2020-03-20,"South West",57
+2020-03-20,"Scotland",NA
+2020-03-20,"Wales",NA
+2020-03-20,"Northern Ireland",247
+2020-03-21,"East of England",71
+2020-03-21,"London",1055
+2020-03-21,"Midlands",278
+2020-03-21,"North East & Yorkshire",124
+2020-03-21,"North West",162
+2020-03-21,"South East",307
+2020-03-21,"South West",95
+2020-03-21,"Scotland",NA
+2020-03-21,"Wales",NA
+2020-03-21,"Northern Ireland",265
+2020-03-22,"East of England",91
+2020-03-22,"London",1228
+2020-03-22,"Midlands",379
+2020-03-22,"North East & Yorkshire",158
+2020-03-22,"North West",190
+2020-03-22,"South East",408
+2020-03-22,"South West",134
+2020-03-22,"Scotland",NA
+2020-03-22,"Wales",NA
+2020-03-22,"Northern Ireland",281
+2020-03-23,"East of England",131
+2020-03-23,"London",1515
+2020-03-23,"Midlands",436
+2020-03-23,"North East & Yorkshire",190
+2020-03-23,"North West",236
+2020-03-23,"South East",449
+2020-03-23,"South West",140
+2020-03-23,"Scotland",NA
+2020-03-23,"Wales",NA
+2020-03-23,"Northern Ireland",309
+2020-03-24,"East of England",150
+2020-03-24,"London",1651
+2020-03-24,"Midlands",581
+2020-03-24,"North East & Yorkshire",228
+2020-03-24,"North West",250
+2020-03-24,"South East",469
+2020-03-24,"South West",163
+2020-03-24,"Scotland",NA
+2020-03-24,"Wales",NA
+2020-03-24,"Northern Ireland",329
+2020-03-25,"East of England",192
+2020-03-25,"London",1974
+2020-03-25,"Midlands",688
+2020-03-25,"North East & Yorkshire",309
+2020-03-25,"North West",332
+2020-03-25,"South East",567
+2020-03-25,"South West",200
+2020-03-25,"Scotland",NA
+2020-03-25,"Wales",NA
+2020-03-25,"Northern Ireland",377
+2020-03-26,"East of England",290
+2020-03-26,"London",2158
+2020-03-26,"Midlands",964
+2020-03-26,"North East & Yorkshire",426
+2020-03-26,"North West",372
+2020-03-26,"South East",599
+2020-03-26,"South West",236
+2020-03-26,"Scotland",NA
+2020-03-26,"Wales",411
+2020-03-26,"Northern Ireland",425
+2020-03-27,"East of England",336
+2020-03-27,"London",2727
+2020-03-27,"Midlands",1054
+2020-03-27,"North East & Yorkshire",532
+2020-03-27,"North West",548
+2020-03-27,"South East",744
+2020-03-27,"South West",304
+2020-03-27,"Scotland",404
+2020-03-27,"Wales",451
+2020-03-27,"Northern Ireland",469
+2020-03-28,"East of England",423
+2020-03-28,"London",3002
+2020-03-28,"Midlands",1117
+2020-03-28,"North East & Yorkshire",677
+2020-03-28,"North West",654
+2020-03-28,"South East",802
+2020-03-28,"South West",342
+2020-03-28,"Scotland",511
+2020-03-28,"Wales",552
+2020-03-28,"Northern Ireland",535
+2020-03-29,"East of England",475
+2020-03-29,"London",3334
+2020-03-29,"Midlands",1312
+2020-03-29,"North East & Yorkshire",804
+2020-03-29,"North West",809
+2020-03-29,"South East",1008
+2020-03-29,"South West",401
+2020-03-29,"Scotland",565
+2020-03-29,"Wales",535
+2020-03-29,"Northern Ireland",560
+2020-03-30,"East of England",617
+2020-03-30,"London",3492
+2020-03-30,"Midlands",1799
+2020-03-30,"North East & Yorkshire",963
+2020-03-30,"North West",964
+2020-03-30,"South East",1208
+2020-03-30,"South West",455
+2020-03-30,"Scotland",627
+2020-03-30,"Wales",625
+2020-03-30,"Northern Ireland",595
+2020-03-31,"East of England",779
+2020-03-31,"London",3915
+2020-03-31,"Midlands",1918
+2020-03-31,"North East & Yorkshire",1085
+2020-03-31,"North West",1110
+2020-03-31,"South East",1469
+2020-03-31,"South West",491
+2020-03-31,"Scotland",752
+2020-03-31,"Wales",781
+2020-03-31,"Northern Ireland",627
+2020-04-01,"East of England",812
+2020-04-01,"London",4012
+2020-04-01,"Midlands",2138
+2020-04-01,"North East & Yorkshire",1254
+2020-04-01,"North West",1392
+2020-04-01,"South East",1368
+2020-04-01,"South West",564
+2020-04-01,"Scotland",815
+2020-04-01,"Wales",882
+2020-04-01,"Northern Ireland",668
+2020-04-02,"East of England",796
+2020-04-02,"London",4009
+2020-04-02,"Midlands",1729
+2020-04-02,"North East & Yorkshire",1319
+2020-04-02,"North West",1476
+2020-04-02,"South East",1614
+2020-04-02,"South West",590
+2020-04-02,"Scotland",910
+2020-04-02,"Wales",865
+2020-04-02,"Northern Ireland",693
+2020-04-03,"East of England",870
+2020-04-03,"London",3836
+2020-04-03,"Midlands",2546
+2020-04-03,"North East & Yorkshire",1771
+2020-04-03,"North West",1638
+2020-04-03,"South East",1541
+2020-04-03,"South West",642
+2020-04-03,"Scotland",1037
+2020-04-03,"Wales",911
+2020-04-03,"Northern Ireland",687
+2020-04-04,"East of England",931
+2020-04-04,"London",4406
+2020-04-04,"Midlands",2768
+2020-04-04,"North East & Yorkshire",2013
+2020-04-04,"North West",2049
+2020-04-04,"South East",1712
+2020-04-04,"South West",703
+2020-04-04,"Scotland",1107
+2020-04-04,"Wales",915
+2020-04-04,"Northern Ireland",734
+2020-04-05,"East of England",1161
+2020-04-05,"London",4571
+2020-04-05,"Midlands",2895
+2020-04-05,"North East & Yorkshire",2218
+2020-04-05,"North West",2178
+2020-04-05,"South East",1850
+2020-04-05,"South West",740
+2020-04-05,"Scotland",1204
+2020-04-05,"Wales",990
+2020-04-05,"Northern Ireland",746
+2020-04-06,"East of England",1144
+2020-04-06,"London",4656
+2020-04-06,"Midlands",3042
+2020-04-06,"North East & Yorkshire",2041
+2020-04-06,"North West",2409
+2020-04-06,"South East",1858
+2020-04-06,"South West",802
+2020-04-06,"Scotland",1262
+2020-04-06,"Wales",1044
+2020-04-06,"Northern Ireland",780
+2020-04-07,"East of England",1323
+2020-04-07,"London",4689
+2020-04-07,"Midlands",3086
+2020-04-07,"North East & Yorkshire",2113
+2020-04-07,"North West",2495
+2020-04-07,"South East",2073
+2020-04-07,"South West",791
+2020-04-07,"Scotland",1328
+2020-04-07,"Wales",1054
+2020-04-07,"Northern Ireland",794
+2020-04-08,"East of England",1316
+2020-04-08,"London",4813
+2020-04-08,"Midlands",3070
+2020-04-08,"North East & Yorkshire",2319
+2020-04-08,"North West",2436
+2020-04-08,"South East",2058
+2020-04-08,"South West",772
+2020-04-08,"Scotland",1415
+2020-04-08,"Wales",1160
+2020-04-08,"Northern Ireland",825
+2020-04-09,"East of England",1272
+2020-04-09,"London",4791
+2020-04-09,"Midlands",2999
+2020-04-09,"North East & Yorkshire",2567
+2020-04-09,"North West",2596
+2020-04-09,"South East",1930
+2020-04-09,"South West",797
+2020-04-09,"Scotland",1440
+2020-04-09,"Wales",1168
+2020-04-09,"Northern Ireland",824
+2020-04-10,"East of England",1345
+2020-04-10,"London",4736
+2020-04-10,"Midlands",3101
+2020-04-10,"North East & Yorkshire",2304
+2020-04-10,"North West",2721
+2020-04-10,"South East",2031
+2020-04-10,"South West",809
+2020-04-10,"Scotland",1461
+2020-04-10,"Wales",1222
+2020-04-10,"Northern Ireland",768
+2020-04-11,"East of England",1322
+2020-04-11,"London",4430
+2020-04-11,"Midlands",3062
+2020-04-11,"North East & Yorkshire",2422
+2020-04-11,"North West",2830
+2020-04-11,"South East",2007
+2020-04-11,"South West",808
+2020-04-11,"Scotland",1467
+2020-04-11,"Wales",1208
+2020-04-11,"Northern Ireland",782
+2020-04-12,"East of England",1484
+2020-04-12,"London",4433
+2020-04-12,"Midlands",3092
+2020-04-12,"North East & Yorkshire",2440
+2020-04-12,"North West",2837
+2020-04-12,"South East",2053
+2020-04-12,"South West",833
+2020-04-12,"Scotland",1487
+2020-04-12,"Wales",1257
+2020-04-12,"Northern Ireland",775
+2020-04-13,"East of England",1268
+2020-04-13,"London",4248
+2020-04-13,"Midlands",2975
+2020-04-13,"North East & Yorkshire",2470
+2020-04-13,"North West",2890
+2020-04-13,"South East",2049
+2020-04-13,"South West",822
+2020-04-13,"Scotland",1482
+2020-04-13,"Wales",1187
+2020-04-13,"Northern Ireland",779
+2020-04-14,"East of England",1387
+2020-04-14,"London",4031
+2020-04-14,"Midlands",2989
+2020-04-14,"North East & Yorkshire",2431
+2020-04-14,"North West",2842
+2020-04-14,"South East",2020
+2020-04-14,"South West",840
+2020-04-14,"Scotland",1514
+2020-04-14,"Wales",1191
+2020-04-14,"Northern Ireland",771
+2020-04-15,"East of England",1418
+2020-04-15,"London",3886
+2020-04-15,"Midlands",2756
+2020-04-15,"North East & Yorkshire",2400
+2020-04-15,"North West",2655
+2020-04-15,"South East",1970
+2020-04-15,"South West",832
+2020-04-15,"Scotland",1486
+2020-04-15,"Wales",1209
+2020-04-15,"Northern Ireland",757
+2020-04-16,"East of England",1364
+2020-04-16,"London",3800
+2020-04-16,"Midlands",2708
+2020-04-16,"North East & Yorkshire",2353
+2020-04-16,"North West",2753
+2020-04-16,"South East",1911
+2020-04-16,"South West",796
+2020-04-16,"Scotland",1479
+2020-04-16,"Wales",1227
+2020-04-16,"Northern Ireland",766
+2020-04-17,"East of England",1340
+2020-04-17,"London",3617
+2020-04-17,"Midlands",2496
+2020-04-17,"North East & Yorkshire",2206
+2020-04-17,"North West",2389
+2020-04-17,"South East",1893
+2020-04-17,"South West",792
+2020-04-17,"Scotland",1487
+2020-04-17,"Wales",1227
+2020-04-17,"Northern Ireland",767
+2020-04-18,"East of England",1323
+2020-04-18,"London",3445
+2020-04-18,"Midlands",2510
+2020-04-18,"North East & Yorkshire",2236
+2020-04-18,"North West",2652
+2020-04-18,"South East",1932
+2020-04-18,"South West",770
+2020-04-18,"Scotland",1501
+2020-04-18,"Wales",1249
+2020-04-18,"Northern Ireland",801
+2020-04-19,"East of England",1362
+2020-04-19,"London",3384
+2020-04-19,"Midlands",2523
+2020-04-19,"North East & Yorkshire",2217
+2020-04-19,"North West",2651
+2020-04-19,"South East",1933
+2020-04-19,"South West",771
+2020-04-19,"Scotland",1520
+2020-04-19,"Wales",1194
+2020-04-19,"Northern Ireland",841
+2020-04-20,"East of England",1363
+2020-04-20,"London",3378
+2020-04-20,"Midlands",2524
+2020-04-20,"North East & Yorkshire",2121
+2020-04-20,"North West",2631
+2020-04-20,"South East",1936
+2020-04-20,"South West",737
+2020-04-20,"Scotland",1520
+2020-04-20,"Wales",1182
+2020-04-20,"Northern Ireland",846
+2020-04-21,"East of England",1319
+2020-04-21,"London",3270
+2020-04-21,"Midlands",2497
+2020-04-21,"North East & Yorkshire",2226
+2020-04-21,"North West",2547
+2020-04-21,"South East",1897
+2020-04-21,"South West",731
+2020-04-21,"Scotland",1472
+2020-04-21,"Wales",1124
+2020-04-21,"Northern Ireland",859
+2020-04-22,"East of England",1293
+2020-04-22,"London",3134
+2020-04-22,"Midlands",2416
+2020-04-22,"North East & Yorkshire",2148
+2020-04-22,"North West",2462
+2020-04-22,"South East",1856
+2020-04-22,"South West",713
+2020-04-22,"Scotland",1432
+2020-04-22,"Wales",1108
+2020-04-22,"Northern Ireland",856
+2020-04-23,"East of England",1261
+2020-04-23,"London",2928
+2020-04-23,"Midlands",2354
+2020-04-23,"North East & Yorkshire",2095
+2020-04-23,"North West",2445
+2020-04-23,"South East",1747
+2020-04-23,"South West",677
+2020-04-23,"Scotland",1423
+2020-04-23,"Wales",1332
+2020-04-23,"Northern Ireland",820
+2020-04-24,"East of England",1228
+2020-04-24,"London",2737
+2020-04-24,"Midlands",2245
+2020-04-24,"North East & Yorkshire",2054
+2020-04-24,"North West",2338
+2020-04-24,"South East",1682
+2020-04-24,"South West",647
+2020-04-24,"Scotland",1383
+2020-04-24,"Wales",1312
+2020-04-24,"Northern Ireland",822
+2020-04-25,"East of England",1203
+2020-04-25,"London",2688
+2020-04-25,"Midlands",2000
+2020-04-25,"North East & Yorkshire",2018
+2020-04-25,"North West",2281
+2020-04-25,"South East",1597
+2020-04-25,"South West",625
+2020-04-25,"Scotland",1385
+2020-04-25,"Wales",1347
+2020-04-25,"Northern Ireland",855
+2020-04-26,"East of England",1227
+2020-04-26,"London",2615
+2020-04-26,"Midlands",2111
+2020-04-26,"North East & Yorkshire",1963
+2020-04-26,"North West",2277
+2020-04-26,"South East",1524
+2020-04-26,"South West",611
+2020-04-26,"Scotland",1382
+2020-04-26,"Wales",1312
+2020-04-26,"Northern Ireland",894
+2020-04-27,"East of England",1205
+2020-04-27,"London",2614
+2020-04-27,"Midlands",2109
+2020-04-27,"North East & Yorkshire",2007
+2020-04-27,"North West",2306
+2020-04-27,"South East",1568
+2020-04-27,"South West",589
+2020-04-27,"Scotland",1387
+2020-04-27,"Wales",1300
+2020-04-27,"Northern Ireland",911
+2020-04-28,"East of England",1195
+2020-04-28,"London",2304
+2020-04-28,"Midlands",2047
+2020-04-28,"North East & Yorkshire",1973
+2020-04-28,"North West",2168
+2020-04-28,"South East",1541
+2020-04-28,"South West",590
+2020-04-28,"Scotland",1359
+2020-04-28,"Wales",1273
+2020-04-28,"Northern Ireland",917
+2020-04-29,"East of England",1138
+2020-04-29,"London",2335
+2020-04-29,"Midlands",1935
+2020-04-29,"North East & Yorkshire",1911
+2020-04-29,"North West",2218
+2020-04-29,"South East",1489
+2020-04-29,"South West",547
+2020-04-29,"Scotland",1363
+2020-04-29,"Wales",1236
+2020-04-29,"Northern Ireland",865
+2020-04-30,"East of England",1067
+2020-04-30,"London",2235
+2020-04-30,"Midlands",1921
+2020-04-30,"North East & Yorkshire",1862
+2020-04-30,"North West",2178
+2020-04-30,"South East",1465
+2020-04-30,"South West",525
+2020-04-30,"Scotland",1324
+2020-04-30,"Wales",1262
+2020-04-30,"Northern Ireland",832
+2020-05-01,"East of England",1033
+2020-05-01,"London",2152
+2020-05-01,"Midlands",1873
+2020-05-01,"North East & Yorkshire",1854
+2020-05-01,"North West",2150
+2020-05-01,"South East",1407
+2020-05-01,"South West",501
+2020-05-01,"Scotland",1302
+2020-05-01,"Wales",1104
+2020-05-01,"Northern Ireland",767
+2020-05-02,"East of England",1021
+2020-05-02,"London",2033
+2020-05-02,"Midlands",1835
+2020-05-02,"North East & Yorkshire",1835
+2020-05-02,"North West",2191
+2020-05-02,"South East",1310
+2020-05-02,"South West",494
+2020-05-02,"Scotland",1277
+2020-05-02,"Wales",1124
+2020-05-02,"Northern Ireland",771
+2020-05-03,"East of England",1045
+2020-05-03,"London",2001
+2020-05-03,"Midlands",1802
+2020-05-03,"North East & Yorkshire",1814
+2020-05-03,"North West",2065
+2020-05-03,"South East",1307
+2020-05-03,"South West",525
+2020-05-03,"Scotland",1266
+2020-05-03,"Wales",1052
+2020-05-03,"Northern Ireland",769
+2020-05-04,"East of England",961
+2020-05-04,"London",1935
+2020-05-04,"Midlands",1777
+2020-05-04,"North East & Yorkshire",1809
+2020-05-04,"North West",2094
+2020-05-04,"South East",1335
+2020-05-04,"South West",527
+2020-05-04,"Scotland",1279
+2020-05-04,"Wales",1067
+2020-05-04,"Northern Ireland",722
+2020-05-05,"East of England",981
+2020-05-05,"London",1890
+2020-05-05,"Midlands",1735
+2020-05-05,"North East & Yorkshire",1746
+2020-05-05,"North West",2043
+2020-05-05,"South East",1291
+2020-05-05,"South West",518
+2020-05-05,"Scotland",1225
+2020-05-05,"Wales",1057
+2020-05-05,"Northern Ireland",682
+2020-05-06,"East of England",935
+2020-05-06,"London",1803
+2020-05-06,"Midlands",1712
+2020-05-06,"North East & Yorkshire",1671
+2020-05-06,"North West",1957
+2020-05-06,"South East",1231
+2020-05-06,"South West",473
+2020-05-06,"Scotland",1204
+2020-05-06,"Wales",1020
+2020-05-06,"Northern Ireland",673
+2020-05-07,"East of England",894
+2020-05-07,"London",1736
+2020-05-07,"Midlands",1598
+2020-05-07,"North East & Yorkshire",1597
+2020-05-07,"North West",1840
+2020-05-07,"South East",1171
+2020-05-07,"South West",445
+2020-05-07,"Scotland",1199
+2020-05-07,"Wales",1045
+2020-05-07,"Northern Ireland",644
+2020-05-08,"East of England",836
+2020-05-08,"London",1639
+2020-05-08,"Midlands",1556
+2020-05-08,"North East & Yorkshire",1531
+2020-05-08,"North West",1817
+2020-05-08,"South East",1123
+2020-05-08,"South West",402
+2020-05-08,"Scotland",1168
+2020-05-08,"Wales",1069
+2020-05-08,"Northern Ireland",636
+2020-05-09,"East of England",870
+2020-05-09,"London",1653
+2020-05-09,"Midlands",1563
+2020-05-09,"North East & Yorkshire",1497
+2020-05-09,"North West",1813
+2020-05-09,"South East",1063
+2020-05-09,"South West",417
+2020-05-09,"Scotland",1165
+2020-05-09,"Wales",1063
+2020-05-09,"Northern Ireland",658
+2020-05-10,"East of England",903
+2020-05-10,"London",1579
+2020-05-10,"Midlands",1523
+2020-05-10,"North East & Yorkshire",1424
+2020-05-10,"North West",1723
+2020-05-10,"South East",1051
+2020-05-10,"South West",414
+2020-05-10,"Scotland",1132
+2020-05-10,"Wales",1013
+2020-05-10,"Northern Ireland",683
+2020-05-11,"East of England",894
+2020-05-11,"London",1580
+2020-05-11,"Midlands",1559
+2020-05-11,"North East & Yorkshire",1508
+2020-05-11,"North West",1799
+2020-05-11,"South East",1062
+2020-05-11,"South West",417
+2020-05-11,"Scotland",1145
+2020-05-11,"Wales",965
+2020-05-11,"Northern Ireland",697
+2020-05-12,"East of England",873
+2020-05-12,"London",1547
+2020-05-12,"Midlands",1520
+2020-05-12,"North East & Yorkshire",1465
+2020-05-12,"North West",1733
+2020-05-12,"South East",1035
+2020-05-12,"South West",387
+2020-05-12,"Scotland",1131
+2020-05-12,"Wales",964
+2020-05-12,"Northern Ireland",664
+2020-05-13,"East of England",851
+2020-05-13,"London",1490
+2020-05-13,"Midlands",1502
+2020-05-13,"North East & Yorkshire",1437
+2020-05-13,"North West",1711
+2020-05-13,"South East",996
+2020-05-13,"South West",378
+2020-05-13,"Scotland",1101
+2020-05-13,"Wales",879
+2020-05-13,"Northern Ireland",664
+2020-05-14,"East of England",823
+2020-05-14,"London",1404
+2020-05-14,"Midlands",1449
+2020-05-14,"North East & Yorkshire",1360
+2020-05-14,"North West",1668
+2020-05-14,"South East",961
+2020-05-14,"South West",364
+2020-05-14,"Scotland",1100
+2020-05-14,"Wales",895
+2020-05-14,"Northern Ireland",630
+2020-05-15,"East of England",811
+2020-05-15,"London",1366
+2020-05-15,"Midlands",1407
+2020-05-15,"North East & Yorkshire",1366
+2020-05-15,"North West",1636
+2020-05-15,"South East",955
+2020-05-15,"South West",361
+2020-05-15,"Scotland",1066
+2020-05-15,"Wales",841
+2020-05-15,"Northern Ireland",587
+2020-05-16,"East of England",777
+2020-05-16,"London",1315
+2020-05-16,"Midlands",1385
+2020-05-16,"North East & Yorkshire",1257
+2020-05-16,"North West",1580
+2020-05-16,"South East",866
+2020-05-16,"South West",347
+2020-05-16,"Scotland",1011
+2020-05-16,"Wales",868
+2020-05-16,"Northern Ireland",595
+2020-05-17,"East of England",797
+2020-05-17,"London",1282
+2020-05-17,"Midlands",1439
+2020-05-17,"North East & Yorkshire",1240
+2020-05-17,"North West",1588
+2020-05-17,"South East",846
+2020-05-17,"South West",361
+2020-05-17,"Scotland",1007
+2020-05-17,"Wales",848
+2020-05-17,"Northern Ireland",618
+2020-05-18,"East of England",783
+2020-05-18,"London",1258
+2020-05-18,"Midlands",1466
+2020-05-18,"North East & Yorkshire",1243
+2020-05-18,"North West",1591
+2020-05-18,"South East",837
+2020-05-18,"South West",371
+2020-05-18,"Scotland",1005
+2020-05-18,"Wales",820
+2020-05-18,"Northern Ireland",625
+2020-05-19,"East of England",787
+2020-05-19,"London",1182
+2020-05-19,"Midlands",1440
+2020-05-19,"North East & Yorkshire",1215
+2020-05-19,"North West",1636
+2020-05-19,"South East",818
+2020-05-19,"South West",358
+2020-05-19,"Scotland",969
+2020-05-19,"Wales",888
+2020-05-19,"Northern Ireland",622
+2020-05-20,"East of England",764
+2020-05-20,"London",1050
+2020-05-20,"Midlands",1415
+2020-05-20,"North East & Yorkshire",1143
+2020-05-20,"North West",1574
+2020-05-20,"South East",783
+2020-05-20,"South West",354
+2020-05-20,"Scotland",943
+2020-05-20,"Wales",848
+2020-05-20,"Northern Ireland",594
+2020-05-21,"East of England",740
+2020-05-21,"London",1018
+2020-05-21,"Midlands",1409
+2020-05-21,"North East & Yorkshire",1067
+2020-05-21,"North West",1517
+2020-05-21,"South East",788
+2020-05-21,"South West",357
+2020-05-21,"Scotland",909
+2020-05-21,"Wales",884
+2020-05-21,"Northern Ireland",575
+2020-05-22,"East of England",718
+2020-05-22,"London",1047
+2020-05-22,"Midlands",1381
+2020-05-22,"North East & Yorkshire",1033
+2020-05-22,"North West",1495
+2020-05-22,"South East",818
+2020-05-22,"South West",335
+2020-05-22,"Scotland",874
+2020-05-22,"Wales",1015
+2020-05-22,"Northern Ireland",530
+2020-05-23,"East of England",707
+2020-05-23,"London",961
+2020-05-23,"Midlands",1303
+2020-05-23,"North East & Yorkshire",979
+2020-05-23,"North West",1464
+2020-05-23,"South East",755
+2020-05-23,"South West",330
+2020-05-23,"Scotland",841
+2020-05-23,"Wales",1043
+2020-05-23,"Northern Ireland",513
+2020-05-24,"East of England",683
+2020-05-24,"London",974
+2020-05-24,"Midlands",1324
+2020-05-24,"North East & Yorkshire",982
+2020-05-24,"North West",1426
+2020-05-24,"South East",777
+2020-05-24,"South West",323
+2020-05-24,"Scotland",845
+2020-05-24,"Wales",950
+2020-05-24,"Northern Ireland",520
+2020-05-25,"East of England",683
+2020-05-25,"London",987
+2020-05-25,"Midlands",1372
+2020-05-25,"North East & Yorkshire",1014
+2020-05-25,"North West",1426
+2020-05-25,"South East",724
+2020-05-25,"South West",317
+2020-05-25,"Scotland",849
+2020-05-25,"Wales",883
+2020-05-25,"Northern Ireland",543
+2020-05-26,"East of England",641
+2020-05-26,"London",957
+2020-05-26,"Midlands",1307
+2020-05-26,"North East & Yorkshire",1013
+2020-05-26,"North West",1424
+2020-05-26,"South East",747
+2020-05-26,"South West",301
+2020-05-26,"Scotland",833
+2020-05-26,"Wales",1112
+2020-05-26,"Northern Ireland",557
+2020-05-27,"East of England",632
+2020-05-27,"London",913
+2020-05-27,"Midlands",1266
+2020-05-27,"North East & Yorkshire",965
+2020-05-27,"North West",1342
+2020-05-27,"South East",720
+2020-05-27,"South West",271
+2020-05-27,"Scotland",810
+2020-05-27,"Wales",1031
+2020-05-27,"Northern Ireland",539
+2020-05-28,"East of England",599
+2020-05-28,"London",861
+2020-05-28,"Midlands",1228
+2020-05-28,"North East & Yorkshire",939
+2020-05-28,"North West",1292
+2020-05-28,"South East",665
+2020-05-28,"South West",266
+2020-05-28,"Scotland",797
+2020-05-28,"Wales",1063
+2020-05-28,"Northern Ireland",512
+2020-05-29,"East of England",502
+2020-05-29,"London",839
+2020-05-29,"Midlands",1176
+2020-05-29,"North East & Yorkshire",903
+2020-05-29,"North West",1265
+2020-05-29,"South East",653
+2020-05-29,"South West",251
+2020-05-29,"Scotland",769
+2020-05-29,"Wales",1029
+2020-05-29,"Northern Ireland",470
+2020-05-30,"East of England",531
+2020-05-30,"London",780
+2020-05-30,"Midlands",1120
+2020-05-30,"North East & Yorkshire",856
+2020-05-30,"North West",1218
+2020-05-30,"South East",599
+2020-05-30,"South West",236
+2020-05-30,"Scotland",735
+2020-05-30,"Wales",1038
+2020-05-30,"Northern Ireland",483
+2020-05-31,"East of England",515
+2020-05-31,"London",748
+2020-05-31,"Midlands",1113
+2020-05-31,"North East & Yorkshire",870
+2020-05-31,"North West",1221
+2020-05-31,"South East",599
+2020-05-31,"South West",232
+2020-05-31,"Scotland",732
+2020-05-31,"Wales",982
+2020-05-31,"Northern Ireland",488
+2020-06-01,"East of England",526
+2020-06-01,"London",737
+2020-06-01,"Midlands",1148
+2020-06-01,"North East & Yorkshire",867
+2020-06-01,"North West",1227
+2020-06-01,"South East",621
+2020-06-01,"South West",232
+2020-06-01,"Scotland",735
+2020-06-01,"Wales",987
+2020-06-01,"Northern Ireland",471
+2020-06-02,"East of England",482
+2020-06-02,"London",710
+2020-06-02,"Midlands",1104
+2020-06-02,"North East & Yorkshire",856
+2020-06-02,"North West",1217
+2020-06-02,"South East",607
+2020-06-02,"South West",232
+2020-06-02,"Scotland",712
+2020-06-02,"Wales",1045
+2020-06-02,"Northern Ireland",468
+2020-06-03,"East of England",463
+2020-06-03,"London",696
+2020-06-03,"Midlands",1054
+2020-06-03,"North East & Yorkshire",819
+2020-06-03,"North West",1195
+2020-06-03,"South East",596
+2020-06-03,"South West",234
+2020-06-03,"Scotland",706
+2020-06-03,"Wales",1030
+2020-06-03,"Northern Ireland",433
+2020-06-04,"East of England",425
+2020-06-04,"London",669
+2020-06-04,"Midlands",1036
+2020-06-04,"North East & Yorkshire",767
+2020-06-04,"North West",1133
+2020-06-04,"South East",581
+2020-06-04,"South West",224
+2020-06-04,"Scotland",685
+2020-06-04,"Wales",1086
+2020-06-04,"Northern Ireland",431
+2020-06-05,"East of England",408
+2020-06-05,"London",662
+2020-06-05,"Midlands",987
+2020-06-05,"North East & Yorkshire",739
+2020-06-05,"North West",1123
+2020-06-05,"South East",558
+2020-06-05,"South West",218
+2020-06-05,"Scotland",676
+2020-06-05,"Wales",1024
+2020-06-05,"Northern Ireland",403
+2020-06-06,"East of England",439
+2020-06-06,"London",591
+2020-06-06,"Midlands",955
+2020-06-06,"North East & Yorkshire",701
+2020-06-06,"North West",1056
+2020-06-06,"South East",551
+2020-06-06,"South West",213
+2020-06-06,"Scotland",646
+2020-06-06,"Wales",1079
+2020-06-06,"Northern Ireland",410
+2020-06-07,"East of England",389
+2020-06-07,"London",586
+2020-06-07,"Midlands",932
+2020-06-07,"North East & Yorkshire",698
+2020-06-07,"North West",1016
+2020-06-07,"South East",516
+2020-06-07,"South West",188
+2020-06-07,"Scotland",646
+2020-06-07,"Wales",967
+2020-06-07,"Northern Ireland",414
+2020-06-08,"East of England",394
+2020-06-08,"London",585
+2020-06-08,"Midlands",936
+2020-06-08,"North East & Yorkshire",708
+2020-06-08,"North West",1019
+2020-06-08,"South East",511
+2020-06-08,"South West",173
+2020-06-08,"Scotland",655
+2020-06-08,"Wales",887
+2020-06-08,"Northern Ireland",409
+2020-06-09,"East of England",355
+2020-06-09,"London",583
+2020-06-09,"Midlands",925
+2020-06-09,"North East & Yorkshire",686
+2020-06-09,"North West",984
+2020-06-09,"South East",481
+2020-06-09,"South West",162
+2020-06-09,"Scotland",641
+2020-06-09,"Wales",897
+2020-06-09,"Northern Ireland",396
+2020-06-10,"East of England",338
+2020-06-10,"London",556
+2020-06-10,"Midlands",901
+2020-06-10,"North East & Yorkshire",647
+2020-06-10,"North West",892
+2020-06-10,"South East",474
+2020-06-10,"South West",152
+2020-06-10,"Scotland",623
+2020-06-10,"Wales",885
+2020-06-10,"Northern Ireland",365
+2020-06-11,"East of England",327
+2020-06-11,"London",509
+2020-06-11,"Midlands",850
+2020-06-11,"North East & Yorkshire",585
+2020-06-11,"North West",888
+2020-06-11,"South East",458
+2020-06-11,"South West",125
+2020-06-11,"Scotland",610
+2020-06-11,"Wales",886
+2020-06-11,"Northern Ireland",335
+2020-06-12,"East of England",318
+2020-06-12,"London",470
+2020-06-12,"Midlands",864
+2020-06-12,"North East & Yorkshire",628
+2020-06-12,"North West",877
+2020-06-12,"South East",435
+2020-06-12,"South West",126
+2020-06-12,"Scotland",590
+2020-06-12,"Wales",864
+2020-06-12,"Northern Ireland",318
+2020-06-13,"East of England",314
+2020-06-13,"London",443
+2020-06-13,"Midlands",844
+2020-06-13,"North East & Yorkshire",588
+2020-06-13,"North West",877
+2020-06-13,"South East",407
+2020-06-13,"South West",115
+2020-06-13,"Scotland",582
+2020-06-13,"Wales",894
+2020-06-13,"Northern Ireland",317
+2020-06-14,"East of England",304
+2020-06-14,"London",437
+2020-06-14,"Midlands",860
+2020-06-14,"North East & Yorkshire",576
+2020-06-14,"North West",884
+2020-06-14,"South East",418
+2020-06-14,"South West",114
+2020-06-14,"Scotland",575
+2020-06-14,"Wales",820
+2020-06-14,"Northern Ireland",321
+2020-06-15,"East of England",278
+2020-06-15,"London",419
+2020-06-15,"Midlands",857
+2020-06-15,"North East & Yorkshire",579
+2020-06-15,"North West",894
+2020-06-15,"South East",405
+2020-06-15,"South West",116
+2020-06-15,"Scotland",578
+2020-06-15,"Wales",807
+2020-06-15,"Northern Ireland",NA
