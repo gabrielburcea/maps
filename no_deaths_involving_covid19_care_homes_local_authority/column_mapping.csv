@@ -1,5 +1,5 @@
-"provided","standard","notes"
-"area_code","area_code",NA
-"area_name","area_name",NA
-"Date","data",NA
-"Counts","counts","pool"
+"provided","standard","term_id","units","units_id","value_mapping_file","notes"
+"Area Code","area_code",NA,NA,NA,NA,NA
+"Area Name","area_name","GAZ:00000448",NA,NA,"area_name_levels","local authority"
+"Date","date",NA,NA,NA,NA,NA
+"Counts","count",NA,NA,NA,NA,"counts of deaths by local authority"
