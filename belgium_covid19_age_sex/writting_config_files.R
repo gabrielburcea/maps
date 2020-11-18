@@ -1,7 +1,7 @@
 ### belgium_covid19_age_sex - BELGIUM ###
 
 column_mapping <- cfg_write(provided = c("DATE", "PROVINCE", "REGION", "AGEGROUP", "SEX", "CASES"), 
-                            standard = c("date", "province", "region", "agegroup", "sex", "case_count"),
+                            standard = c("date", "geographic_location", "region", "age_band", "sex", "case_count"),
                             table = column_mapping, 
                             path = "/Users/sakelly/maps/belgium_covid19_age_sex/column_mapping.csv")
 

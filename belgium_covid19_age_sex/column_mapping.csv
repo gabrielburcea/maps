@@ -1,7 +1,7 @@
-"provided","standard"
-"DATE","date"
-"PROVINCE","province"
-"REGION","region"
-"AGEGROUP","agegroup"
-"SEX","sex"
-"CASES","deaths"
+"provided","standard","term_id","units","units_id","value_mapping_file","notes"
+"DATE","date",NA,NA,NA,NA,NA
+"PROVINCE","geographic_location","GAZ:00000448",NA,NA,"province_levels.csv",NA
+"REGION","region",NA,NA,NA,"region_levels.csv",NA
+"AGEGROUP","age_band","APOLLO_SV:00000241","year","UO:0000036","age_group_levels.csv",NA
+"SEX","sex","PATO:0000047",NA,NA,"sex_levels.csv",NA
+"CASES","case_count","STATO:0000047",NA,NA,NA,NA

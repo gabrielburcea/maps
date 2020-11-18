@@ -4,7 +4,7 @@ column_mapping <- cfg_write(provided = c("clinical_finding", "case_count","dateR
                             units = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA), 
                             units_id = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA),
                             value_mapping_file = c("clinical_finding_levels.csv", NA, NA, NA, NA, NA, "countriesAndTerritories_levels.csv", "geoId_levels.csv", "countryterritoryCode_levels.csv", NA, "continentExp_levels.csv"),
-                            notes = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA), 
+                            notes = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA), 
                             table = column_mapping,
                             path = "/Users/sakelly/maps/ecdc_data/column_mapping.csv")
 

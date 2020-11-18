@@ -1,4 +1,7 @@
-provided,standard,term_id,units,units_id,value_mapping,notes
-Area.name,geographic_location,GAZ:00000448,,,area_name_levels.csv,
-Reporting.date,date,,,,,
-Daily.change.in.deaths,case_count,STATO:0000047,,,,
+"provided","standard","term_id","units","units_id","value_mapping_file","notes"
+"Area.name","geographic_location","GAZ:00000448",NA,NA,"area_name_levels.csv",NA
+"Area.code","area_code",NA,NA,NA,NA,NA
+"Area.type","area_type",NA,NA,NA,NA,NA
+"Reporting.date","date",NA,NA,NA,NA,NA
+"Daily.change.in.deaths","case_count","STATO:0000047",NA,NA,NA,NA
+"Cumulative.deaths","cumulative_deaths",NA,NA,NA,NA,NA

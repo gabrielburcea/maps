@@ -4,7 +4,7 @@ column_mapping <- cfg_write(provided = c("date", "country", "areacode", "area", 
                             units = c(NA, NA, NA, NA,NA), 
                             units_id = c(NA, NA, NA, NA,NA),
                             value_mapping_file = c(NA, "country_levels.csv", "area_code_levels.csv", "area_levels.csv", NA),
-                            notes = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA), 
+                            notes = c(NA, NA, NA, NA,NA), 
                             table = column_mapping,
                             path = "/Users/sakelly/maps/uk_covid_19_historical_data/column_mapping.csv")
 

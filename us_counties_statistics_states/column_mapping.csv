@@ -1,7 +1,7 @@
-"provided","standard"
-"date","date"
-"county","county"
-"state","state"
-"fips","fips"
-"cases","cases"
-"deaths","deaths"
+"provided","standard","term_id","units","units_id","value_mapping_file","notes"
+"clinical_finding","clinical_finding","OGMS:0000014",NA,NA,"clinical_finding_levels.csv",NA
+"case_count","case_count","STATO:0000047",NA,NA,NA,NA
+"date","date",NA,NA,NA,NA,NA
+"county","geographic_location",NA,NA,NA,"county_levels.csv",NA
+"state","state",NA,NA,NA,"state_levels.csv",NA
+"fips","fips",NA,NA,NA,"fips_levels.csv",NA

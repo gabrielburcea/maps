@@ -1,0 +1,5 @@
+"column_name","term_id","constant_values","values_id","units","units_id","notes"
+"country","ENVO:00000009","Canada",NA,NA,NA,NA
+"case_type",NA,"cases",NA,NA,NA,NA
+"geographic_resolution","ENVO:00000004","admin level 1","ENVO:00000005",NA,NA,NA
+"case_count","STATO:0000047","1",NA,NA,NA,NA

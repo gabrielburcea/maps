@@ -1,5 +1,6 @@
-"provided","standard"
-"date","date"
-"country","country"
-"areacode","are_code"
-"area","area"
+"provided","standard","term_id","units","units_id","value_mapping_file","notes"
+"date","date",NA,NA,NA,NA,NA
+"country","country",NA,NA,NA,"country_levels.csv",NA
+"areacode","areacode",NA,NA,NA,"area_code_levels.csv",NA
+"area","geographic_location","GAZ:00000448",NA,NA,"area_levels.csv",NA
+"totalcases","case_count","STATO:0000047",NA,NA,NA,NA
