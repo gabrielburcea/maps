@@ -1,11 +1,11 @@
 "provided","standard","term_id","units","units_id","value_mapping_file","notes"
-"objectid","objectid",NA,NA,NA,NA,NA
+"case_count","case_count","STATO:0000047",NA,NA,NA,NA
+"clinical_finding","clinical_finding","OGMS:0000014",NA,NA,NA,NA
+"objectid","objectid",NA,NA,NA,"province_levels.csv",NA
 "hr_uid","hr_uid",NA,NA,NA,NA,NA
-"province","geographic_location",NA,NA,NA,"province_levels.csv",NA
+"province","geographic_location","GAZ:00000448",NA,NA,NA,NA
 "engname","engname",NA,NA,NA,NA,NA
 "frename","frename",NA,NA,NA,NA,NA
-"casecount","case_count",NA,NA,NA,NA,NA
-"deaths","deaths",NA,NA,NA,NA,NA
 "recovered","recovered",NA,NA,NA,NA,NA
 "tests","tests",NA,NA,NA,NA,NA
 "totalpop2019","totalpop2019",NA,NA,NA,NA,NA
@@ -35,3 +35,5 @@
 "sourceurl","sourceurl",NA,NA,NA,NA,NA
 "globalid","globalid",NA,NA,NA,NA,NA
 "retreived_at","retreived_at",NA,NA,NA,NA,NA
+"date","date",NA,NA,NA,NA,NA
+"time","time",NA,NA,NA,NA,NA
