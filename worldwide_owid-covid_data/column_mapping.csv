@@ -3,7 +3,7 @@
 "clinical_finding","clinical_finding","OGMS:0000014",NA,NA,NA,NA
 "iso_code","iso_code",NA,NA,NA,NA,NA
 "continent","continent",NA,NA,NA,NA,NA
-"location","location","GAZ:00000448",NA,NA,NA,NA
+"location","geographic_location","GAZ:00000448",NA,NA,NA,NA
 "date","date",NA,NA,NA,NA,NA
 "total_cases","total_cases",NA,NA,NA,NA,NA
 "total_deaths","total_deaths",NA,NA,NA,NA,NA
