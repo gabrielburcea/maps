@@ -13,8 +13,8 @@ column_mapping <- cfg_write(provided = c("report_date", "state", "region_code", 
 
 
 
-constant_values <- const_val_fct(column_name = c("country" , "geographic_resolution", "case_type"), 
-                                 term_id =  c('ENVO:00000009', "GAZ:00000448", NA),
+constant_values <- const_val_fct(column_name = c("country" , "geographic_resolution", "clinical_data_item"), 
+                                 term_id =  c('ENVO:00000009', "GAZ:00000448", "OGMS:0000123"),
                                  constant_values =  c("Italy", NA, "this seems to have so many variables that may need further attention as to what it is the case_type"), 
                                  values_id = c(NA, NA, NA),
                                  units = c(NA, NA, NA), 

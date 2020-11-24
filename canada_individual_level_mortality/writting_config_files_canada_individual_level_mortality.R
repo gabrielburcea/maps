@@ -11,8 +11,8 @@ column_mapping <- cfg_write(provided = c("death_id", "province_death_id", "case_
                             path = "/Users/sakelly/maps/canada_individual_level_mortality/column_mapping.csv")
 
 
-constant_values <- const_val_fct(column_name = c("country", "case_type", "geographic_resolution", "case_count"), 
-                                 term_id =  c('ENVO:00000009', NA, "ENVO:00000004", "STATO:0000047"),
+constant_values <- const_val_fct(column_name = c("country", "clinical_data_item", "geographic_resolution", "case_count"), 
+                                 term_id =  c('ENVO:00000009', "OGMS:0000123", "ENVO:00000004", "STATO:0000047"),
                                  constant_values =  c("Canada", NA, "admin level 4", "1"),
                                  values_id = c(NA, NA, "ENVO:00000008", NA), 
                                  units = c(NA, NA, NA, NA), 

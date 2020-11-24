@@ -1,4 +1,4 @@
 "column_name","term_id","constant_values","values_id","units","units_id","notes"
 "country","ENVO:00000009","Belgium",NA,NA,NA,NA
-"clinical_finding","OGMS:0000014","ENVO:00000004",NA,NA,NA,NA
+"clinical_data_item","OGMS:0000123","ENVO:00000004",NA,NA,NA,NA
 "geographic_resolution","ENVO:00000004","admin level 2","ENVO_00000006",NA,NA,NA

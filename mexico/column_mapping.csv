@@ -1,6 +1,6 @@
 "provided","standard","term_id","units","units_id","value_mapping_file","notes"
 "report_date","date",NA,NA,NA,NA,NA
-"state","geographical_resolution","GAZ:00000448",NA,NA,"state_levels.csv","geographic location or locatio of?"
+"state","geographical_resolution","GAZ:00000448",NA,NA,"state_levels.csv",NA
 "sex","sex","PATO:0000047",NA,NA,"sex_levels.csv",NA
 "age","age","OBI:0001169",NA,NA,NA,NA
 "date_of_start_of_symptoms","date_of_start_of_symptoms",NA,NA,NA,"status_levels.csv","need to check what date?"

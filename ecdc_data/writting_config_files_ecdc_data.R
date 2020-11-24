@@ -1,8 +1,8 @@
 ### ecdc data ###
 library(tidyverse)
 column_mapping <- cfg_write(provided = c("clinical_finding", "case_count","dateRep", "day", "month", "year", "countriesAndTerritories", "geoId", "countryterritoryCode", "popData2018", "continentExp"),
-                            standard = c("clinical_finding", "case_count","date", "day", "month", "year", "countriesAndTerritories", "geoId", "countryterritoryCode", "popData2018", "continentExp"),
-                            term_id = c(NA, NA, NA, NA,NA, NA, "GAZ:00000448", NA, NA, NA, NA),
+                            standard = c("clinical_data_item", "case_count","date", "day", "month", "year", "countriesAndTerritories", "geoId", "countryterritoryCode", "popData2018", "continentExp"),
+                            term_id = c("OGMS:0000123", "STATO:0000047", NA, NA,NA, NA, "GAZ:00000448", NA, NA, NA, NA),
                             units = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA), 
                             units_id = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA),
                             value_mapping_file = c("clinical_finding_levels.csv", NA, NA, NA, NA, NA, "countriesAndTerritories_levels.csv", "geoId_levels.csv", "countryterritoryCode_levels.csv", NA, "continentExp_levels.csv"),

@@ -11,8 +11,8 @@ column_mapping <- cfg_write(provided = c("date", "country", "areacode", "area", 
                             path = "/Users/sakelly/maps/uk_covid_19_historical_data/column_mapping.csv")
 
 
-constant_values <- const_val_fct(column_name = c("case_type", "geographic_resolution"), 
-                                 term_id =  c(NA, "ENVO:00000004"),
+constant_values <- const_val_fct(column_name = c("clinical_data_item", "geographic_resolution"), 
+                                 term_id =  c("OGMS:0000123", "ENVO:00000004"),
                                  constant_values =  c("cases", "admin level 1"),
                                  values_id = c(NA, "ENVO:00000005"), 
                                  units = c(NA, NA), 

@@ -11,8 +11,8 @@ column_mapping <- cfg_write(provided = c("case_id", "provincial_case_id", "age",
                             path = "/Users/sakelly/maps/canada_public_covid_19_cases/column_mapping.csv")
 
 
-constant_values <- const_val_fct(column_name = c("country", "case_type", "geographic_resolution", "case_count"), 
-                                 term_id =  c('ENVO:00000009', NA, "ENVO:00000004", "STATO:0000047"),
+constant_values <- const_val_fct(column_name = c("country", "clinical_data_item", "geographic_resolution", "case_count"), 
+                                 term_id =  c('ENVO:00000009', "OGMS:0000123", "ENVO:00000004", "STATO:0000047"),
                                  constant_values =  c("Canada", "cases", "admin level 1", "1"),
                                  values_id = c(NA, NA, "ENVO:00000005", NA), 
                                  units = c(NA, NA, NA, NA), 

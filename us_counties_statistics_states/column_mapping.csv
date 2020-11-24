@@ -1,5 +1,5 @@
 "provided","standard","term_id","units","units_id","value_mapping_file","notes"
-"clinical_finding","clinical_finding","OGMS:0000014",NA,NA,"clinical_finding_levels.csv",NA
+"clinical_finding","clinical_data_item","OGMS:0000123",NA,NA,"clinical_finding_levels.csv",NA
 "case_count","case_count","STATO:0000047",NA,NA,NA,NA
 "date","date",NA,NA,NA,NA,NA
 "county","geographic_location",NA,NA,NA,"county_levels.csv",NA

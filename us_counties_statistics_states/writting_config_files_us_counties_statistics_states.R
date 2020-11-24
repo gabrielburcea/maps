@@ -2,8 +2,8 @@
 library(tidyverse)
 preprocessed <- read_csv("us_counties_statistics_states/preprocessed.csv")
 column_mapping <- cfg_write(provided = c("clinical_finding", "case_count", "date", "county", "state", "fips"), 
-                            standard = c("clinical_finding", "case_count", "date", "geographic_location", "state", "fips"),
-                            term_id =  c("OGMS:0000014", "STATO:0000047", NA, NA, NA, NA),
+                            standard = c("clinical_data_item", "case_count", "date", "geographic_location", "state", "fips"),
+                            term_id =  c("OGMS:0000123", "STATO:0000047", NA, NA, NA, NA),
                             units = c(NA, NA, NA, NA, NA, NA), 
                             units_id = c(NA, NA, NA, NA, NA, NA),
                             value_mapping_file = c("clinical_finding_levels.csv", NA, NA, "county_levels.csv", "state_levels.csv", "fips_levels.csv"),

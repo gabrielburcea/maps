@@ -1,6 +1,6 @@
 "provided","standard","term_id","units","units_id","value_mapping_file","notes"
-"clinical_finding","clinical_finding",NA,NA,NA,"clinical_finding_levels.csv",NA
-"case_count","case_count",NA,NA,NA,NA,NA
+"clinical_finding","clinical_data_item","OGMS:0000123",NA,NA,"clinical_finding_levels.csv",NA
+"case_count","case_count","STATO:0000047",NA,NA,NA,NA
 "dateRep","date",NA,NA,NA,NA,NA
 "day","day",NA,NA,NA,NA,NA
 "month","month",NA,NA,NA,NA,NA

@@ -11,8 +11,8 @@ column_mapping <- cfg_write(provided = c("case_count", "clinical_finding", "obje
                             path = "/Users/sakelly/maps/canada_cumulative_case/column_mapping.csv")
 
 
-constant_values <- const_val_fct(column_name = c("country", "clinical_finding", "geographic_resolution"), 
-                                 term_id =  c('ENVO:00000009', "OGMS:0000014", "ENVO:00000004"),
+constant_values <- const_val_fct(column_name = c("country", "clinical_data_item", "geographic_resolution"), 
+                                 term_id =  c('ENVO:00000009', "OGMS:0000123", "ENVO:00000004"),
                                  constant_values =  c("Canada", NA, "admin level 1"),
                                  values_id = c(NA, NA, "ENVO:00000005"), 
                                  units = c(NA, NA, NA), 
