@@ -1,8 +1,8 @@
-provided,standard,term_id,notes
-85+,85+,,age range category - as column mapping and the standard is the value
-65-74,65-74,,age range category - as column mapping and the standard is the value
-75-84,75-84,,age range category - as column mapping and the standard is the value
-NA,NA,,age range category - as column mapping and the standard is the value
-25-44,25-44,,age range category - as column mapping and the standard is the value
-45-64,45-64,,age range category - as column mapping and the standard is the value
-0-24,0-24,,age range category - as column mapping and the standard is the value
+"provided","standard"
+"85+","85+"
+"65-74","65-74"
+"75-84","75-84"
+NA,NA
+"25-44","25-44"
+"45-64","45-64"
+"0-24","0-24"

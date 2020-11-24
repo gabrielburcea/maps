@@ -1,6 +1,6 @@
-provided,standard,term_id,units,units_id,value_mapping_file,notes
-DATE,date,,,,,ISO dates - confirmed by Chris
-REGION,geographic_location,GAZ:00000448,,,region_levels.csv,
-AGEGROUP,age_band,APOLLO_SV:00000241,year,UO:0000036,age_group_levels.csv,Is this the correct ontology?
-SEX,sex,PATO:0000047,,,sex_levels.csv,
-DEATHS,case_count,STATO:0000047,,,,
+"provided","standard","term_id","units","units_id","value_mapping_file","notes"
+"DATE","date",NA,NA,NA,NA,NA
+"REGION","geographic_location","GAZ:00000448",NA,NA,"region_levels.csv",NA
+"AGEGROUP","age_band","APOLLO_SV:00000241","year","UO:0000036","age_group_levels.csv",NA
+"SEX","sex","PATO:0000047",NA,NA,"sex_levels.csv",NA
+"DEATHS","case_count","STATO:0000047",NA,NA,NA,NA
