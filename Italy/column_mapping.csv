@@ -3,14 +3,14 @@
 "state","country",NA,NA,NA,NA,"geographic location"
 "region_code","region_code",NA,NA,NA,NA,NA
 "region_name","geographic_location","GAZ:00000448",NA,NA,"region_name_levels",NA
-"lat","lat",NA,NA,NA,NA,"need to check what code?"
-"long","long",NA,NA,NA,NA,"need to check what code?"
+"lat","latitude","OBI:0001620",NA,NA,NA,"need to check what code?"
+"long","longitude","OBI:0001621",NA,NA,NA,"need to check what code?"
 "hospitalised_with_symptoms","hospitalised_with_symptoms",NA,NA,NA,NA,NA
 "intensive_care","intensive_care",NA,NA,NA,NA,NA
 "total_hospitalised","total_hospitalised",NA,NA,NA,NA,NA
 "home_isolation","home_isolation",NA,NA,NA,NA,NA
 "total_positive","total_positive",NA,NA,NA,NA,NA
 "variation_total_positive","variation_total_positive",NA,NA,NA,NA,NA
-"new_positive","new_positive",NA,NA,NA,NA,NA
+"new_positive","case_count","STATO:0000047",NA,NA,NA,NA
 "discharged","discharged",NA,NA,NA,NA,NA
 "deceased","deceased",NA,NA,NA,NA,NA
