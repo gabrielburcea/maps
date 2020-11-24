@@ -13,7 +13,7 @@ column_mapping <- cfg_write(provided = c("case_count", "clinical_finding", "iso_
 
 constant_values <- const_val_fct(column_name = c("geographic_resolution"), 
                                  term_id =  c("ENVO:00000004"),
-                                 constant_values =  c("admin level 0"),
+                                 constant_values =  c("national geopolitical entity"),
                                  values_id = c("ENVO:00000009"), 
                                  units = c(NA), 
                                  units_id = c(NA), 
