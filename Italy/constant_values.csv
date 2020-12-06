@@ -1,4 +1,4 @@
 "column_name","term_id","constant_values","values_id","units","units_id","notes"
 "country","ENVO:00000009","Italy",NA,NA,NA,NA
-"geographic_resolution","GAZ:00000448",NA,NA,NA,NA,NA
-"case_type",NA,"this seems to have so many variables that may need further attention as to what it is the case_type",NA,NA,NA,"ask ontology team"
+"geographic_resolution","ENVO:00000004","admin level 1","ENVO:00000005",NA,NA,NA
+"clinical_data_item","OGMS:0000123","cases",NA,NA,NA,"this seems to have so many variables that may need further attention as to what it is the case_type could be deaths too"

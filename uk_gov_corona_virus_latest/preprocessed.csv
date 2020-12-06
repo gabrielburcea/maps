@@ -1,4 +1,4 @@
-﻿Area name,Area code,Area type,Specimen date,Daily lab-confirmed cases,Previously reported daily cases,Change in daily cases,Cumulative lab-confirmed cases,Previously reported cumulative cases,Change in cumulative cases,Cumulative lab-confirmed cases rate
+Area.name,Area.code,Area.type,Specimen.date,Daily.lab-confirmed.cases,Previously.reported.daily.cases,Change.in.daily.cases,Cumulative.lab-confirmed.cases,Previously.reported.cumulative.cases,Change.in.cumulative.cases,Cumulative.lab-confirmed.cases.rate
 Westminster,E09000033,Lower tier local authority,2020-06-07,0,,,664,,,260.1
 Wandsworth,E09000032,Lower tier local authority,2020-06-07,0,,,1001,,,306.6
 Waltham Forest,E09000031,Lower tier local authority,2020-06-07,0,,,771,,,278.6

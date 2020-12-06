@@ -1,4 +1,4 @@
-provided,standard,term_id,notes
-F,female,PATO:0000384,
-M,male,PATO:0000383,
-NA,unknown,OBI:0000858,
+"provided","standard"
+"F","female"
+"M","male"
+NA,"unknown"
